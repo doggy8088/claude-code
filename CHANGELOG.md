@@ -667,9 +667,9 @@
 
 ## 1.0.110
 
-- /terminal-setup command now supports WezTerm
-- MCP: OAuth tokens now proactively refresh before expiration
-- Fixed reliability issues with background Bash processes
+- /terminal-setup 指令現在支援 WezTerm
+- MCP：OAuth 權杖現在會在到期前主動重新整理
+- 修正背景 Bash 行程的可靠性問題
 
 ## 1.0.109
 
