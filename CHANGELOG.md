@@ -1185,7 +1185,7 @@
 
 ## 0.2.72
 
-- Updated spinner to indicate tokens loaded and tool usage
+- 更新旋轉指示器，顯示已載入的 token 與工具使用狀態
 
 ## 0.2.70
 
