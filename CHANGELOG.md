@@ -720,10 +720,10 @@
 
 ## 1.0.84
 
-- Fix tool_use/tool_result id mismatch error when network is unstable
-- Fix Claude sometimes ignoring real-time steering when wrapping up a task
-- @-mention: Add ~/.claude/\* files to suggestions for easier agent, output style, and slash command editing
-- Use built-in ripgrep by default; to opt out of this behavior, set USE_BUILTIN_RIPGREP=0
+- 修正網路不穩時 tool_use/tool_result id 不一致的錯誤
+- 修正 Claude 在收尾任務時有時會忽略即時引導（real-time steering）的問題
+- @ 提及：將 ~/.claude/* 檔案加入建議清單，讓編輯 agent、輸出風格與斜線指令更容易
+- 預設使用內建 ripgrep；如要停用此行為，請設定 USE_BUILTIN_RIPGREP=0
 
 ## 1.0.83
 
