@@ -215,12 +215,12 @@
 
 ## 2.0.65
 
-- Added ability to switch models while writing a prompt using alt+p (linux, windows), option+p (macos).
-- Added context window information to status line input
-- Added `fileSuggestion` setting for custom `@` file search commands
-- Added `CLAUDE_CODE_SHELL` environment variable to override automatic shell detection (useful when login shell differs from actual working shell)
-- Fixed prompt not being saved to history when aborting a query with Escape
-- Fixed Read tool image handling to identify format from bytes instead of file extension
+- 新增可在撰寫提示詞時切換模型：Linux/Windows 使用 alt+p，macOS 使用 option+p
+- 狀態列輸入新增上下文視窗資訊
+- 新增 `fileSuggestion` 設定，用於自訂 `@` 檔案搜尋指令
+- 新增 `CLAUDE_CODE_SHELL` 環境變數，可覆寫自動 shell 偵測（適用於 login shell 與實際工作 shell 不同的情況）
+- 修正按 Escape 中止查詢時提示詞不會被寫入歷史紀錄的問題
+- 修正 Read 工具的圖片處理：改為從位元組判定格式，而非檔案副檔名
 
 ## 2.0.64
 
