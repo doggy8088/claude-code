@@ -1019,8 +1019,8 @@
 
 ## 1.0.23
 
-- Released TypeScript SDK: import @anthropic-ai/claude-code to get started
-- Released Python SDK: pip install claude-code-sdk to get started
+- 發布 TypeScript SDK：使用 import @anthropic-ai/claude-code 開始使用
+- 發布 Python SDK：使用 pip install claude-code-sdk 開始使用
 
 ## 1.0.22
 
