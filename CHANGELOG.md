@@ -305,15 +305,15 @@
 
 ## 2.0.51
 
-- Added Opus 4.5! https://www.anthropic.com/news/claude-opus-4-5
-- Introducing Claude Code for Desktop: https://claude.com/download
-- To give you room to try out our new model, we've updated usage limits for Claude Code users. See the Claude Opus 4.5 blog for full details
-- Pro users can now purchase extra usage for access to Opus 4.5 in Claude Code
-- Plan Mode now builds more precise plans and executes more thoroughly
-- Usage limit notifications now easier to understand
-- Switched `/usage` back to "% used"
-- Fixed handling of thinking errors
-- Fixed performance regression
+- 新增 Opus 4.5！https://www.anthropic.com/news/claude-opus-4-5
+- 推出桌面版 Claude Code：https://claude.com/download
+- 為了讓你有空間試用新模型，我們已更新 Claude Code 使用者的用量限制。完整細節請參考 Claude Opus 4.5 部落格文章
+- Pro 使用者現在可購買額外用量，以在 Claude Code 中使用 Opus 4.5
+- 計畫模式現在可建立更精準的計畫並更徹底執行
+- 用量限制通知更容易理解
+- 將 `/usage` 切回顯示「已使用百分比」
+- 修正思考錯誤的處理
+- 修正效能回歸問題
 
 ## 2.0.50
 
