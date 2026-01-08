@@ -599,11 +599,11 @@
 
 ## 1.0.124
 
-- Set `CLAUDE_BASH_NO_LOGIN` environment variable to 1 or true to to skip login shell for BashTool
-- Fix Bedrock and Vertex environment variables evaluating all strings as truthy
-- No longer inform Claude of the list of allowed tools when permission is denied
-- Fixed security vulnerability in Bash tool permission checks
-- Improved VSCode extension performance for large files
+- 將 `CLAUDE_BASH_NO_LOGIN` 環境變數設為 1 或 true，可讓 BashTool 略過 login shell
+- 修正 Bedrock 與 Vertex 環境變數：不再把所有字串都判定為 truthy
+- 當權限被拒絕時，不再告知 Claude 允許使用的工具清單
+- 修正 Bash 工具權限檢查的安全性漏洞
+- 改善 VSCode 擴充套件在大型檔案下的效能
 
 ## 1.0.123
 
