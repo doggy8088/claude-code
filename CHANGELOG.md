@@ -773,9 +773,9 @@
 
 ## 1.0.70
 
-- Performance: Optimized message rendering for better performance with large contexts
-- Windows: Fixed native file search, ripgrep, and subagent functionality
-- Added support for @-mentions in slash command arguments
+- 效能：最佳化訊息渲染，在大型上下文下有更好的效能
+- Windows：修正原生檔案搜尋、ripgrep 與子代理功能
+- 新增支援在斜線指令參數中使用 @ 提及
 
 ## 1.0.69
 
