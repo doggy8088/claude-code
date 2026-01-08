@@ -594,8 +594,8 @@
 
 ## 1.0.126
 
-- Enable /context command for Bedrock and Vertex
-- Add mTLS support for HTTP-based OpenTelemetry exporters
+- 在 Bedrock 與 Vertex 上啟用 /context 指令
+- 為基於 HTTP 的 OpenTelemetry exporter 新增 mTLS 支援
 
 ## 1.0.124
 
