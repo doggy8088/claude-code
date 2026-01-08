@@ -640,12 +640,12 @@
 
 ## 1.0.115
 
-- Improve thinking mode display with enhanced visual effects
-- Type /t to temporarily disable thinking mode in your prompt
-- Improve path validation for glob and grep tools
-- Show condensed output for post-tool hooks to reduce visual clutter
-- Fix visual feedback when loading state completes
-- Improve UI consistency for permission request dialogs
+- 透過更佳的視覺效果改善思考模式顯示
+- 在提示詞中輸入 /t 可暫時停用思考模式
+- 改善 glob 與 grep 工具的路徑驗證
+- 針對 post-tool hooks 顯示精簡輸出，減少視覺雜訊
+- 修正載入狀態完成時的視覺回饋
+- 改善權限請求對話框的 UI 一致性
 
 ## 1.0.113
 
