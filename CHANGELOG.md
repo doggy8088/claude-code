@@ -416,12 +416,12 @@
 
 ## 2.0.31
 
-- Windows: native installation uses shift+tab as shortcut for mode switching, instead of alt+m
-- Vertex: add support for Web Search on supported models
-- VSCode: Adding the respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)
-- Fixed a bug with subagents and MCP servers related to "Tool names must be unique" error
-- Fixed issue causing `/compact` to fail with `prompt_too_long` by making it respect existing compact boundaries
-- Fixed plugin uninstall not removing plugins
+- Windows：原生安裝改用 shift+tab 作為模式切換快捷鍵，而非 alt+m
+- Vertex：為支援的模型新增 Web Search 支援
+- VSCode：新增 respectGitIgnore 設定，可在檔案搜尋中包含被 .gitignore 忽略的檔案（預設為 true）
+- 修正子代理與 MCP 伺服器相關錯誤："Tool names must be unique"
+- 讓 `/compact` 遵循既有 compact 邊界，修正其因 `prompt_too_long` 而失敗的問題
+- 修正解除安裝外掛時未移除外掛的錯誤
 
 ## 2.0.30
 
