@@ -677,7 +677,7 @@
 
 ## 1.0.106
 
-- Windows: Fixed path permission matching to consistently use POSIX format (e.g., `Read(//c/Users/...)`)
+- Windows：修正路徑權限比對，統一使用 POSIX 格式（例如：`Read(//c/Users/...)`）
 
 ## 1.0.97
 
