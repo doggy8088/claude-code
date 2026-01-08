@@ -1106,8 +1106,8 @@
 
 ## 0.2.125
 
-- Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)
-- Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests
+- 重大變更：傳入 `ANTHROPIC_MODEL` 或 `ANTHROPIC_SMALL_FAST_MODEL` 的 Bedrock ARN 不應再包含逸出斜線（請用 `/` 取代 `%2F`）
+- 移除 `DEBUG=true`，改用 `ANTHROPIC_LOG=debug` 以記錄所有請求
 
 ## 0.2.117
 
