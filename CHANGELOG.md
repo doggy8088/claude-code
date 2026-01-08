@@ -865,11 +865,11 @@
 
 ## 1.0.54
 
-- Hooks: Added UserPromptSubmit hook and the current working directory to hook inputs
-- Custom slash commands: Added argument-hint to frontmatter
-- Windows: OAuth uses port 45454 and properly constructs browser URL
-- Windows: mode switching now uses alt + m, and plan mode renders properly
-- Shell: Switch to in-memory shell snapshot to fix file-related errors
+- Hooks：新增 UserPromptSubmit hook，並在 hook 輸入中加入目前工作目錄
+- 自訂斜線指令：在 frontmatter 新增 argument-hint
+- Windows：OAuth 使用 45454 連接埠，並正確組合瀏覽器 URL
+- Windows：模式切換改用 alt + m，且計畫模式可正確渲染
+- Shell：改用記憶體中的 shell 快照，以修正檔案相關錯誤
 
 ## 1.0.53
 
