@@ -362,18 +362,18 @@
 
 ## 2.0.41
 
-- Added `model` parameter to prompt-based stop hooks, allowing users to specify a custom model for hook evaluation
-- Fixed slash commands from user settings being loaded twice, which could cause rendering issues
-- Fixed incorrect labeling of user settings vs project settings in command descriptions
-- Fixed crash when plugin command hooks timeout during execution
-- Fixed: Bedrock users no longer see duplicate Opus entries in the /model picker when using `--model haiku`
-- Fixed broken security documentation links in trust dialogs and onboarding
-- Fixed issue where pressing ESC to close the diff modal would also interrupt the model
-- ctrl-r history search landing on a slash command no longer cancels the search
-- SDK: Support custom timeouts for hooks
-- Allow more safe git commands to run without approval
-- Plugins: Added support for sharing and installing output styles
-- Teleporting a session from web will automatically set the upstream branch
+- 在基於提示詞的 stop hooks 中新增 `model` 參數，讓使用者可指定用於 hook 評估的自訂模型
+- 修正來自使用者設定的斜線指令被載入兩次、可能造成渲染問題的錯誤
+- 修正指令描述中對使用者設定與專案設定的標示不正確問題
+- 修正外掛指令 hooks 執行逾時時會當機的問題
+- 修正：Bedrock 使用者在使用 `--model haiku` 時，不再於 /model 選擇器看到重複的 Opus 項目
+- 修正信任對話框與導覽流程中的安全性文件連結失效問題
+- 修正按 ESC 關閉 diff 視窗時也會中斷模型的問題
+- ctrl-r 歷史搜尋停在斜線指令時不再取消搜尋
+- SDK：hooks 支援自訂逾時
+- 允許更多安全的 git 指令在不需核准的情況下執行
+- 外掛：新增支援分享與安裝輸出風格
+- 從 Web teleport 工作階段時，會自動設定 upstream branch
 
 ## 2.0.37
 
