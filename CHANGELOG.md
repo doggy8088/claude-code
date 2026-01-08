@@ -377,9 +377,9 @@
 
 ## 2.0.37
 
-- Fixed how idleness is computed for notifications
-- Hooks: Added matcher values for Notification hook events
-- Output Styles: Added `keep-coding-instructions` option to frontmatter
+- 修正通知的閒置時間計算方式
+- Hooks：為 Notification hook 事件新增 matcher 值
+- 輸出風格：在 frontmatter 新增 `keep-coding-instructions` 選項
 
 ## 2.0.36
 
