@@ -840,9 +840,9 @@
 
 ## 1.0.58
 
-- Added support for reading PDFs
-- MCP: Improved server health status display in 'claude mcp list'
-- Hooks: Added CLAUDE_PROJECT_DIR env var for hook commands
+- 新增支援讀取 PDF
+- MCP：改善 'claude mcp list' 中的伺服器健康狀態顯示
+- Hooks：為 hook 指令新增 CLAUDE_PROJECT_DIR 環境變數
 
 ## 1.0.57
 
