@@ -817,14 +817,14 @@
 
 ## 1.0.61
 
-- Transcript mode (Ctrl+R): Changed Esc to exit transcript mode rather than interrupt
-- Settings: Added `--settings` flag to load settings from a JSON file
-- Settings: Fixed resolution of settings files paths that are symlinks
-- OTEL: Fixed reporting of wrong organization after authentication changes
-- Slash commands: Fixed permissions checking for allowed-tools with Bash
-- IDE: Added support for pasting images in VSCode MacOS using ⌘+V
-- IDE: Added `CLAUDE_CODE_AUTO_CONNECT_IDE=false` for disabling IDE auto-connection
-- Added `CLAUDE_CODE_SHELL_PREFIX` for wrapping Claude and user-provided shell commands run by Claude Code
+- Transcript 模式（Ctrl+R）：將 Esc 改為退出 Transcript 模式，而非中斷
+- Settings：新增 `--settings` 旗標，可從 JSON 檔載入設定
+- Settings：修正設定檔路徑為符號連結（symlink）時的解析問題
+- OTEL：修正驗證變更後回報到錯誤組織的問題
+- 斜線指令：修正 allowed-tools 搭配 Bash 時的權限檢查
+- IDE：macOS 的 VSCode 新增支援使用 ⌘+V 貼上圖片
+- IDE：新增 `CLAUDE_CODE_AUTO_CONNECT_IDE=false`，可停用 IDE 自動連線
+- 新增 `CLAUDE_CODE_SHELL_PREFIX`，用於包裝 Claude 與使用者提供、由 Claude Code 執行的 shell 指令
 
 ## 1.0.60
 
