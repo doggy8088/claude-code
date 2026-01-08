@@ -878,7 +878,7 @@
 
 ## 1.0.52
 
-- Added support for MCP server instructions
+- 新增支援 MCP 伺服器指令（instructions）
 
 ## 1.0.51
 
