@@ -1052,11 +1052,11 @@
 
 ## 1.0.11
 
-- Claude Code can now also be used with a Claude Pro subscription
-- Added /upgrade for smoother switching to Claude Max plans
-- Improved UI for authentication from API keys and Bedrock/Vertex/external auth tokens
-- Improved shell configuration error handling
-- Improved todo list handling during compaction
+- Claude Code 現在也可搭配 Claude Pro 訂閱使用
+- 新增 /upgrade，讓切換至 Claude Max 方案更順暢
+- 改善使用 API 金鑰與 Bedrock/Vertex/外部驗證權杖登入的 UI
+- 改善 Shell 設定的錯誤處理
+- 改善壓縮（compaction）期間的待辦清單處理
 
 ## 1.0.10
 
