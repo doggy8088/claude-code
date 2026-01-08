@@ -727,8 +727,8 @@
 
 ## 1.0.83
 
-- @-mention: Support files with spaces in path
-- New shimmering spinner
+- @ 提及：支援路徑包含空白的檔案
+- 新增閃爍旋轉指示器
 
 ## 1.0.82
 
