@@ -456,11 +456,11 @@
 
 ## 2.0.27
 
-- New UI for permission prompts
-- Added current branch filtering and search to session resume screen for easier navigation
-- Fixed directory @-mention causing "No assistant message found" error
-- VSCode Extension: Add config setting to include .gitignored files in file searches
-- VSCode Extension: Bug fixes for unrelated 'Warmup' conversations, and configuration/settings occasionally being reset to defaults
+- 權限提示全新 UI
+- 在工作階段續接畫面新增目前分支的篩選與搜尋，方便導覽
+- 修正 @ 提及目錄導致 "No assistant message found" 錯誤的問題
+- VSCode 擴充套件：新增設定，可在檔案搜尋中包含被 .gitignore 忽略的檔案
+- VSCode 擴充套件：修正無關的 'Warmup' 對話，以及設定偶爾被重設為預設值的問題
 
 ## 2.0.25
 
