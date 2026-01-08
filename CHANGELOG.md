@@ -607,13 +607,13 @@
 
 ## 1.0.123
 
-- Bash permission rules now support output redirections when matching (e.g., `Bash(python:*)` matches `python script.py > output.txt`)
-- Fixed thinking mode triggering on negation phrases like "don't think"
-- Fixed rendering performance degradation during token streaming
-- Added SlashCommand tool, which enables Claude to invoke your slash commands. https://code.claude.com/docs/en/slash-commands#SlashCommand-tool
-- Enhanced BashTool environment snapshot logging
-- Fixed a bug where resuming a conversation in headless mode would sometimes enable thinking unnecessarily
-- Migrated --debug logging to a file, to enable easy tailing & filtering
+- Bash 權限規則在比對時，現在支援輸出重新導向（例如：`Bash(python:*)` 可比對 `python script.py > output.txt`）
+- 修正像 "don't think" 這類否定語句會觸發思考模式的問題
+- 修正 token 串流期間渲染效能逐步下降的問題
+- 新增 SlashCommand 工具，讓 Claude 能呼叫你的斜線指令：https://code.claude.com/docs/en/slash-commands#SlashCommand-tool
+- 強化 BashTool 的環境快照記錄
+- 修正無頭模式續接對話時，有時會不必要啟用思考模式的錯誤
+- 將 --debug 記錄遷移至檔案，方便 tail 與篩選
 
 ## 1.0.120
 
