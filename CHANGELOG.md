@@ -1083,11 +1083,11 @@
 
 ## 1.0.6
 
-- Improved edit reliability for tab-indented files
-- Respect CLAUDE_CONFIG_DIR everywhere
-- Reduced unnecessary tool permission prompts
-- Added support for symlinks in @file typeahead
-- Bugfixes, UI polish, and tool reliability improvements
+- 改善以 Tab 縮排檔案的編輯可靠性
+- 全面遵循 CLAUDE_CONFIG_DIR 設定
+- 減少不必要的工具權限提示
+- @file 自動完成現在支援符號連結（symlink）
+- 另包含錯誤修正、UI 微調與工具可靠性改進
 
 ## 1.0.4
 
