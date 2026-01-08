@@ -749,10 +749,10 @@
 
 ## 1.0.77
 
-- Bash tool: Fix heredoc and multiline string escaping, improve stderr redirection handling
-- SDK: Add session support and permission denial tracking
-- Fix token limit errors in conversation summarization
-- Opus Plan Mode: New setting in `/model` to run Opus only in plan mode, Sonnet otherwise
+- Bash 工具：修正 heredoc 與多行字串的逸出處理，並改善 stderr 重新導向處理
+- SDK：新增工作階段（session）支援與權限拒絕追蹤
+- 修正對話摘要時的 token 限制錯誤
+- Opus 計畫模式：在 `/model` 新增設定，讓 Opus 僅在計畫模式下執行，其餘使用 Sonnet
 
 ## 1.0.73
 
