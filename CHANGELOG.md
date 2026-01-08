@@ -404,9 +404,9 @@
 
 ## 2.0.33
 
-- Native binary installs now launch quicker.
-- Fixed `claude doctor` incorrectly detecting Homebrew vs npm-global installations by properly resolving symlinks
-- Fixed `claude mcp serve` exposing tools with incompatible outputSchemas
+- 原生二進位安裝現在啟動更快
+- 正確解析 symlink，修正 `claude doctor` 會誤判 Homebrew 與 npm-global 安裝的問題
+- 修正 `claude mcp serve` 會暴露 outputSchemas 不相容工具的問題
 
 ## 2.0.32
 
