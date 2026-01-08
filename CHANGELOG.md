@@ -1213,9 +1213,9 @@
 
 ## 0.2.61
 
-- Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction
-- Enhanced image detection for more reliable clipboard paste functionality
-- Fixed an issue where ESC key could crash the conversation history selector
+- 可使用 Vim 風格按鍵（j/k）或 bash/emacs 快捷鍵（Ctrl+n/p）瀏覽選單，加快操作速度
+- 強化圖片偵測，讓剪貼簿貼上更可靠
+- 修正按下 ESC 可能導致對話歷史選擇器當機的問題
 
 ## 0.2.59
 
