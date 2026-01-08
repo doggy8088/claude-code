@@ -828,7 +828,7 @@
 
 ## 1.0.60
 
-- You can now create custom subagents for specialized tasks! Run /agents to get started
+- 現在可以建立自訂子代理（subagent）來處理特定任務！執行 /agents 即可開始
 
 ## 1.0.59
 
