@@ -810,10 +810,10 @@
 
 ## 1.0.62
 
-- Added @-mention support with typeahead for custom agents. @<your-custom-agent> to invoke it
-- Hooks: Added SessionStart hook for new session initialization
-- /add-dir command now supports typeahead for directory paths
-- Improved network connectivity check reliability
+- 自訂代理新增支援 @ 提及與自動完成：使用 @<your-custom-agent> 呼叫
+- Hooks：新增 SessionStart hook，用於新工作階段初始化
+- /add-dir 指令現在支援目錄路徑的自動完成
+- 改善網路連線檢查的可靠性
 
 ## 1.0.61
 
