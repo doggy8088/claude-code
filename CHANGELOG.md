@@ -397,10 +397,10 @@
 
 ## 2.0.34
 
-- VSCode Extension: Added setting to configure the initial permission mode for new conversations
-- Improved file path suggestion performance with native Rust-based fuzzy finder
-- Fixed infinite token refresh loop that caused MCP servers with OAuth (e.g., Slack) to hang during connection
-- Fixed memory crash when reading or writing large files (especially base64-encoded images)
+- VSCode 擴充套件：新增設定，可設定新對話的初始權限模式
+- 透過原生 Rust 模糊搜尋器改善檔案路徑建議效能
+- 修正無限權杖刷新迴圈：避免 OAuth 的 MCP 伺服器（例如 Slack）連線時卡住
+- 修正讀寫大型檔案（尤其是 base64 編碼圖片）時的記憶體當機問題
 
 ## 2.0.33
 
