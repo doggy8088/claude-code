@@ -1095,9 +1095,9 @@
 
 ## 1.0.1
 
-- Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.
-- Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)
-- Updated documentation links and OAuth process descriptions
+- 新增 `DISABLE_INTERLEAVED_THINKING`，讓使用者可選擇停用交錯式思考（interleaved thinking）
+- 改善模型名稱顯示，以呈現各供應商的特定名稱（Bedrock 為 Sonnet 3.7，Console 為 Sonnet 4）
+- 更新文件連結與 OAuth 流程說明
 
 ## 1.0.0
 
