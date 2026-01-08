@@ -1189,9 +1189,9 @@
 
 ## 0.2.70
 
-- Network commands like curl are now available for Claude to use
-- Claude can now run multiple web queries in parallel
-- Pressing ESC once immediately interrupts Claude in Auto-accept mode
+- Claude 現在可使用像 curl 這類網路指令
+- Claude 現在可並行執行多個網頁查詢
+- 在 Auto-accept 模式下，按一次 ESC 即可立即中斷 Claude
 
 ## 0.2.69
 
