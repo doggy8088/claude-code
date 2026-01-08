@@ -981,10 +981,10 @@
 
 ## 1.0.30
 
-- Custom slash commands: Run bash output, @-mention files, enable thinking with thinking keywords
-- Improved file path autocomplete with filename matching
-- Added timestamps in Ctrl-r mode and fixed Ctrl-c handling
-- Enhanced jq regex support for complex filters with pipes and select
+- 自訂斜線指令：可執行 bash 輸出、@ 提及檔案，並用思考關鍵字啟用思考模式
+- 以檔名比對改善檔案路徑自動補完
+- 在 Ctrl-r 模式新增時間戳，並修正 Ctrl-c 的處理
+- 強化 jq regex 支援，改善包含 pipe 與 select 的複雜篩選條件
 
 ## 1.0.29
 
