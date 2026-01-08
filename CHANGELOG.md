@@ -701,11 +701,11 @@
 
 ## 1.0.88
 
-- Fixed issue causing "OAuth authentication is currently not supported"
-- Status line input now includes `exceeds_200k_tokens`
-- Fixed incorrect usage tracking in /cost.
-- Introduced `ANTHROPIC_DEFAULT_SONNET_MODEL` and `ANTHROPIC_DEFAULT_OPUS_MODEL` for controlling model aliases opusplan, opus, and sonnet.
-- Bedrock: Updated default Sonnet model to Sonnet 4
+- 修正導致出現 "OAuth authentication is currently not supported" 的問題
+- 狀態列輸入現在包含 `exceeds_200k_tokens`
+- 修正 /cost 的用量追蹤不正確問題
+- 新增 `ANTHROPIC_DEFAULT_SONNET_MODEL` 與 `ANTHROPIC_DEFAULT_OPUS_MODEL`，用於控制模型別名 opusplan、opus 與 sonnet
+- Bedrock：將預設 Sonnet 模型更新為 Sonnet 4
 
 ## 1.0.86
 
