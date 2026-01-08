@@ -1167,8 +1167,8 @@
 
 ## 0.2.82
 
-- Added support for --disallowedTools
-- Renamed tools for consistency: LSTool -> LS, View -> Read, etc.
+- 新增對 --disallowedTools 的支援
+- 為一致性調整工具名稱：LSTool -> LS、View -> Read 等
 
 ## 0.2.75
 
