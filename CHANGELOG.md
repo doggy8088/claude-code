@@ -1065,12 +1065,12 @@
 
 ## 1.0.8
 
-- Fixed Vertex AI region fallback when using CLOUD_ML_REGION
-- Increased default otel interval from 1s -> 5s
-- Fixed edge cases where MCP_TIMEOUT and MCP_TOOL_TIMEOUT weren't being respected
-- Fixed a regression where search tools unnecessarily asked for permissions
-- Added support for triggering thinking non-English languages
-- Improved compacting UI
+- 修正在使用 CLOUD_ML_REGION 時 Vertex AI 區域回退（fallback）的問題
+- 將預設 otel 間隔由 1s 提高至 5s
+- 修正 MCP_TIMEOUT 與 MCP_TOOL_TIMEOUT 在部分邊界情況下未被遵循的問題
+- 修正搜尋工具不必要詢問權限的回歸問題
+- 新增支援以非英文觸發思考模式
+- 改善壓縮（compacting）UI
 
 ## 1.0.7
 
