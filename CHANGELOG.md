@@ -920,8 +920,8 @@
 
 ## 1.0.43
 
-- Fixed a bug where the theme selector was saving excessively
-- Hooks: Added EPIPE system error handling
+- 修正主題選擇器過度儲存的錯誤
+- Hooks：新增 EPIPE 系統錯誤處理
 
 ## 1.0.42
 
