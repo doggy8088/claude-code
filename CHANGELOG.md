@@ -255,12 +255,12 @@
 
 ## 2.0.60
 
-- Added background agent support. Agents run in the background while you work
-- Added --disable-slash-commands CLI flag to disable all slash commands
-- Added model name to "Co-Authored-By" commit messages
-- Enabled "/mcp enable [server-name]" or "/mcp disable [server-name]" to quickly toggle all servers
-- Updated Fetch to skip summarization for pre-approved websites
-- VSCode: Added support for multiple terminal clients connecting to the IDE server simultaneously
+- 新增背景 agent 支援：agent 可在背景執行，你可同時繼續工作
+- 新增 --disable-slash-commands CLI 旗標，可停用所有斜線指令
+- 在 "Co-Authored-By" 的提交訊息中新增模型名稱
+- 新增 "/mcp enable [server-name]" 與 "/mcp disable [server-name]"，可快速切換所有伺服器狀態
+- 更新 Fetch：對預先核准的網站略過摘要
+- VSCode：新增支援多個終端機客戶端同時連線至 IDE 伺服器
 
 ## 2.0.59
 
