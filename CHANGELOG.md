@@ -793,8 +793,8 @@
 
 ## 1.0.65
 
-- IDE: Fixed connection stability issues and error handling for diagnostics
-- Windows: Fixed shell environment setup for users without .bashrc files
+- IDE：修正連線穩定性問題，並改善診斷資訊的錯誤處理
+- Windows：修正沒有 .bashrc 檔案的使用者之 Shell 環境設定
 
 ## 1.0.64
 
