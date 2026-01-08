@@ -276,8 +276,8 @@
 
 ## 2.0.57
 
-- Added feedback input when rejecting plans, allowing users to tell Claude what to change
-- VSCode: Added streaming message support for real-time response display
+- 在拒絕計畫時新增回饋輸入，讓使用者可告訴 Claude 要改哪些地方
+- VSCode：新增串流訊息支援，以即時顯示回應
 
 ## 2.0.56
 
