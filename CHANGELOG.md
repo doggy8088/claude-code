@@ -1172,11 +1172,11 @@
 
 ## 0.2.75
 
-- Hit Enter to queue up additional messages while Claude is working
-- Drag in or copy/paste image files directly into the prompt
-- @-mention files to directly add them to context
-- Run one-off MCP servers with `claude --mcp-config <path-to-file>`
-- Improved performance for filename auto-complete
+- Claude 工作時可按 Enter 將後續訊息加入佇列
+- 直接將圖片檔拖曳進提示詞，或複製貼上
+- 使用 @ 提及檔案，可直接加入上下文
+- 使用 `claude --mcp-config <path-to-file>` 執行單次 MCP 伺服器
+- 改善檔名自動補完的效能
 
 ## 0.2.74
 
