@@ -347,14 +347,14 @@
 
 ## 2.0.43
 
-- Added `permissionMode` field for custom agents
-- Added `tool_use_id` field to `PreToolUseHookInput` and `PostToolUseHookInput` types
-- Added skills frontmatter field to declare skills to auto-load for subagents
-- Added the `SubagentStart` hook event
-- Fixed nested `CLAUDE.md` files not loading when @-mentioning files
-- Fixed duplicate rendering of some messages in the UI
-- Fixed some visual flickers
-- Fixed NotebookEdit tool inserting cells at incorrect positions when cell IDs matched the pattern `cell-N`
+- 自訂 agent 新增 `permissionMode` 欄位
+- `PreToolUseHookInput` 與 `PostToolUseHookInput` 型別新增 `tool_use_id` 欄位
+- skills 的 frontmatter 新增欄位，可宣告要為子代理自動載入的 skills
+- 新增 `SubagentStart` hook 事件
+- 修正 @ 提及檔案時巢狀 `CLAUDE.md` 檔案未載入的問題
+- 修正 UI 中部分訊息重複渲染的問題
+- 修正部分視覺閃爍
+- 修正 NotebookEdit 工具：當 cell ID 符合 `cell-N` 模式時會將 cell 插入錯誤位置
 
 ## 2.0.42
 
