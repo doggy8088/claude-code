@@ -732,11 +732,11 @@
 
 ## 1.0.82
 
-- SDK: Add request cancellation support
-- SDK: New additionalDirectories option to search custom paths, improved slash command processing
-- Settings: Validation prevents invalid fields in .claude/settings.json files
-- MCP: Improve tool name consistency
-- Bash: Fix crash when Claude tries to automatically read large files
+- SDK：新增支援取消請求
+- SDK：新增 additionalDirectories 選項以搜尋自訂路徑，並改善斜線指令處理
+- Settings：驗證機制可防止 .claude/settings.json 出現無效欄位
+- MCP：改善工具名稱的一致性
+- Bash：修正 Claude 嘗試自動讀取大型檔案時可能當機的問題
 
 ## 1.0.81
 
