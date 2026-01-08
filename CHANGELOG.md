@@ -1219,9 +1219,9 @@
 
 ## 0.2.59
 
-- Copy+paste images directly into your prompt
-- Improved progress indicators for bash and fetch tools
-- Bugfixes for non-interactive mode (-p)
+- 直接將圖片複製貼上到提示詞中
+- 改善 bash 與 fetch 工具的進度顯示
+- 修正非互動模式（-p）的錯誤
 
 ## 0.2.54
 
