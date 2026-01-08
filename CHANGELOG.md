@@ -798,11 +798,11 @@
 
 ## 1.0.64
 
-- Agents: Added model customization support - you can now specify which model an agent should use
-- Agents: Fixed unintended access to the recursive agent tool
-- Hooks: Added systemMessage field to hook JSON output for displaying warnings and context
-- SDK: Fixed user input tracking across multi-turn conversations
-- Added hidden files to file search and @-mention suggestions
+- Agents：新增模型自訂支援——現在可指定代理要使用的模型
+- Agents：修正非預期存取 recursive agent tool 的問題
+- Hooks：在 hook JSON 輸出中新增 systemMessage 欄位，用於顯示警告與上下文
+- SDK：修正多輪對話中的使用者輸入追蹤
+- 檔案搜尋與 @ 提及建議新增包含隱藏檔
 
 ## 1.0.63
 
