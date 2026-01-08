@@ -1250,7 +1250,7 @@
 
 ## 0.2.44
 
-- Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'
+- 在思考模式下請 Claude 擬定計畫：只要說 'think'、'think harder'，甚至 'ultrathink'
 
 ## 0.2.41
 
