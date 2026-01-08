@@ -557,7 +557,7 @@
 
 ## 2.0.9
 
-- Fix regression where bash backgrounding stopped working
+- 修正 bash 背景執行停止運作的回歸問題
 
 ## 2.0.8
 
