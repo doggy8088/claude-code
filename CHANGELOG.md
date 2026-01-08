@@ -513,13 +513,13 @@
 
 ## 2.0.14
 
-- Fix @-mentioning MCP servers to toggle them on/off
-- Improve permission checks for bash with inline env vars
-- Fix ultrathink + thinking toggle
-- Reduce unnecessary logins
-- Document --system-prompt
-- Several improvements to rendering
-- Plugins UI polish
+- 修正透過 @ 提及 MCP 伺服器以切換啟用／停用的功能
+- 改善 bash 指令包含行內 env 變數時的權限檢查
+- 修正 ultrathink 與思考模式切換
+- 減少不必要的登入
+- 補充 --system-prompt 文件
+- 多項渲染改進
+- 外掛 UI 微調
 
 ## 2.0.13
 
