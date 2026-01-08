@@ -1149,8 +1149,8 @@
 
 ## 0.2.100
 
-- Fixed a crash caused by a stack overflow error
-- Made db storage optional; missing db support disables --continue and --resume
+- 修正因堆疊溢位（stack overflow）錯誤導致的當機
+- 將 db 儲存改為選用；若缺少 db 支援，將停用 --continue 與 --resume
 
 ## 0.2.98
 
