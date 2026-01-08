@@ -1007,10 +1007,10 @@
 
 ## 1.0.25
 
-- Slash commands: moved "project" and "user" prefixes to descriptions
-- Slash commands: improved reliability for command discovery
-- Improved support for Ghostty
-- Improved web search reliability
+- 斜線指令：將 "project" 與 "user" 前綴移至描述中
+- 斜線指令：提升指令探索的可靠性
+- 改善對 Ghostty 的支援
+- 改善網路搜尋的可靠性
 
 ## 1.0.24
 
