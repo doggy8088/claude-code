@@ -541,10 +541,10 @@
 
 ## 2.0.11
 
-- Reduced system prompt size by 1.4k tokens
-- IDE: Fixed keyboard shortcuts and focus issues for smoother interaction
-- Fixed Opus fallback rate limit errors appearing incorrectly
-- Fixed /add-dir command selecting wrong default tab
+- 將系統提示詞縮小 1.4k tokens
+- IDE：修正鍵盤快捷鍵與焦點問題，讓互動更順暢
+- 修正 Opus 回退（fallback）的速率限制錯誤被誤顯示的問題
+- 修正 /add-dir 指令選到錯誤預設分頁的問題
 
 ## 2.0.10
 
