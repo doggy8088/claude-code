@@ -138,15 +138,15 @@
 
 ## 2.0.73
 
-- Added clickable `[Image #N]` links that open attached images in the default viewer
-- Added alt-y yank-pop to cycle through kill ring history after ctrl-y yank
-- Added search filtering to the plugin discover screen (type to filter by name, description, or marketplace)
-- Added support for custom session IDs when forking sessions with `--session-id` combined with `--resume` or `--continue` and `--fork-session`
-- Fixed slow input history cycling and race condition that could overwrite text after message submission
-- Improved `/theme` command to open theme picker directly
-- Improved theme picker UI
-- Improved search UX across resume session, permissions, and plugins screens with a unified SearchBox component
-- [VSCode] Added tab icon badges showing pending permissions (blue) and unread completions (orange)
+- 新增可點擊的 `[Image #N]` 連結，可用預設檢視器開啟附加圖片
+- 新增 alt-y yank-pop，可在 ctrl-y yank 後循環瀏覽 kill ring 歷史
+- 外掛探索畫面新增搜尋篩選（輸入即可依名稱、描述或市集篩選）
+- fork 工作階段時新增支援自訂 session ID：`--session-id` 可與 `--resume` 或 `--continue` 以及 `--fork-session` 搭配使用
+- 修正輸入歷史切換緩慢，以及訊息提交後可能覆寫文字的競態條件
+- 改善 `/theme`：可直接開啟主題選擇器
+- 改善主題選擇器 UI
+- 以統一的 SearchBox 元件改善續接工作階段、權限與外掛畫面的搜尋 UX
+- [VSCode] 分頁圖示新增徽章，顯示待處理權限（藍色）與未讀完成（橘色）
 
 ## 2.0.72
 
