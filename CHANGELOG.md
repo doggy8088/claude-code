@@ -685,10 +685,10 @@
 
 ## 1.0.94
 
-- Vertex: add support for global endpoints for supported models
-- /memory command now allows direct editing of all imported memory files
-- SDK: Add custom tools as callbacks
-- Added /todos command to list current todo items
+- Vertex：為支援的模型新增 global endpoint 支援
+- /memory 指令現在允許直接編輯所有已匯入的記憶檔案
+- SDK：新增以 callback 形式提供自訂工具
+- 新增 /todos 指令，可列出目前的待辦事項
 
 ## 1.0.93
 
