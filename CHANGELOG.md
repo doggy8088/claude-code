@@ -548,12 +548,12 @@
 
 ## 2.0.10
 
-- Rewrote terminal renderer for buttery smooth UI
-- Enable/disable MCP servers by @mentioning, or in /mcp
-- Added tab completion for shell commands in bash mode
-- PreToolUse hooks can now modify tool inputs
-- Press Ctrl-G to edit your prompt in your system's configured text editor
-- Fixes for bash permission checks with environment variables in the command
+- 重寫終端機渲染器，帶來更順暢的 UI
+- 可透過 @ 提及或在 /mcp 中啟用／停用 MCP 伺服器
+- bash 模式新增 shell 指令的 Tab 自動補完
+- PreToolUse hooks 現在可修改工具輸入
+- 按 Ctrl-G 可使用系統設定的文字編輯器編輯提示詞
+- 修正 bash 權限檢查在指令包含環境變數時的問題
 
 ## 2.0.9
 
