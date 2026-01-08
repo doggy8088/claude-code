@@ -1014,8 +1014,8 @@
 
 ## 1.0.24
 
-- Improved /mcp output
-- Fixed a bug where settings arrays got overwritten instead of merged
+- 改善 /mcp 輸出
+- 修正 settings 陣列被覆寫而非合併的錯誤
 
 ## 1.0.23
 
