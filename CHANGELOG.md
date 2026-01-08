@@ -508,8 +508,8 @@
 
 ## 2.0.15
 
-- Fixed bug with resuming where previously created files needed to be read again before writing
-- Fixed bug with `-p` mode where @-mentioned files needed to be read again before writing
+- 修正續接（resume）時的錯誤：先前建立的檔案在寫入前需要再次讀取
+- 修正 `-p` 模式的錯誤：@ 提及的檔案在寫入前需要再次讀取
 
 ## 2.0.14
 
