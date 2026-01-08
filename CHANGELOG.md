@@ -444,15 +444,15 @@
 
 ## 2.0.28
 
-- Plan mode: introduced new Plan subagent
-- Subagents: claude can now choose to resume subagents
-- Subagents: claude can dynamically choose the model used by its subagents
-- SDK: added --max-budget-usd flag
-- Discovery of custom slash commands, subagents, and output styles no longer respects .gitignore
-- Stop `/terminal-setup` from adding backslash to `Shift + Enter` in VS Code
-- Add branch and tag support for git-based plugins and marketplaces using fragment syntax (e.g., `owner/repo#branch`)
-- Fixed a bug where macOS permission prompts would show up upon initial launch when launching from home directory
-- Various other bug fixes
+- 計畫模式：推出新的 Plan 子代理
+- 子代理：Claude 現在可選擇續接子代理
+- 子代理：Claude 現在可動態選擇子代理使用的模型
+- SDK：新增 --max-budget-usd 旗標
+- 自訂斜線指令、子代理與輸出風格的探索不再遵循 .gitignore
+- 避免 `/terminal-setup` 在 VS Code 中對 `Shift + Enter` 加上反斜線
+- Git 型外掛與市集新增支援分支與標籤，可用 fragment 語法（例如：`owner/repo#branch`）
+- 修正從家目錄啟動時，macOS 權限提示會在初次啟動就出現的錯誤
+- 其他多項錯誤修正
 
 ## 2.0.27
 
