@@ -561,11 +561,11 @@
 
 ## 2.0.8
 
-- Update Bedrock default Sonnet model to `global.anthropic.claude-sonnet-4-5-20250929-v1:0`
-- IDE: Add drag-and-drop support for files and folders in chat
-- /context: Fix counting for thinking blocks
-- Improve message rendering for users with light themes on dark terminals
-- Remove deprecated .claude.json allowedTools, ignorePatterns, env, and todoFeatureEnabled config options (instead, configure these in your settings.json)
+- 將 Bedrock 預設 Sonnet 模型更新為 `global.anthropic.claude-sonnet-4-5-20250929-v1:0`
+- IDE：在聊天中新增支援拖放檔案與資料夾
+- /context：修正思考區塊的計數
+- 改善在深色終端機上使用淺色主題時的訊息渲染
+- 移除已棄用的 .claude.json 設定選項 allowedTools、ignorePatterns、env 與 todoFeatureEnabled（請改在 settings.json 設定）
 
 ## 2.0.5
 
