@@ -756,11 +756,11 @@
 
 ## 1.0.73
 
-- MCP: Support multiple config files with `--mcp-config file1.json file2.json`
-- MCP: Press Esc to cancel OAuth authentication flows
-- Bash: Improved command validation and reduced false security warnings
-- UI: Enhanced spinner animations and status line visual hierarchy
-- Linux: Added support for Alpine and musl-based distributions (requires separate ripgrep installation)
+- MCP：支援多個設定檔，可使用 `--mcp-config file1.json file2.json`
+- MCP：按 Esc 可取消 OAuth 驗證流程
+- Bash：改善指令驗證並減少誤判的安全警告
+- UI：強化旋轉指示器動畫與狀態列視覺層級
+- Linux：新增支援 Alpine 與基於 musl 的發行版（需另外安裝 ripgrep）
 
 ## 1.0.72
 
