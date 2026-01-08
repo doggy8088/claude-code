@@ -201,17 +201,17 @@
 
 ## 2.0.67
 
-- Thinking mode is now enabled by default for Opus 4.5
-- Thinking mode configuration has moved to /config
-- Added search functionality to `/permissions` command with `/` keyboard shortcut for filtering rules by tool name
-- Show reason why autoupdater is disabled in `/doctor`
-- Fixed false "Another process is currently updating Claude" error when running `claude update` while another instance is already on the latest version
-- Fixed MCP servers from `.mcp.json` being stuck in pending state when running in non-interactive mode (`-p` flag or piped input)
-- Fixed scroll position resetting after deleting a permission rule in `/permissions`
-- Fixed word deletion (opt+delete) and word navigation (opt+arrow) not working correctly with non-Latin text such as Cyrillic, Greek, Arabic, Hebrew, Thai, and Chinese
-- Fixed `claude install --force` not bypassing stale lock files
-- Fixed consecutive @~/ file references in CLAUDE.md being incorrectly parsed due to markdown strikethrough interference
-- Windows: Fixed plugin MCP servers failing due to colons in log directory paths
+- Opus 4.5 現在預設啟用思考模式
+- 思考模式設定已移至 /config
+- `/permissions` 指令新增搜尋功能：使用 `/` 快捷鍵可依工具名稱篩選規則
+- 在 `/doctor` 顯示 autoupdater 被停用的原因
+- 修正誤判錯誤：當另一個實例已是最新版本時執行 `claude update`，會錯誤顯示 "Another process is currently updating Claude"
+- 修正 `.mcp.json` 的 MCP 伺服器在非互動模式（`-p` 旗標或管線輸入）下卡在 pending 狀態的問題
+- 修正在 `/permissions` 刪除權限規則後捲動位置會重設的問題
+- 修正在西里爾文、希臘文、阿拉伯文、希伯來文、泰文與中文等非拉丁文字中，單字刪除（opt+delete）與單字導覽（opt+arrow）無法正常運作的問題
+- 修正 `claude install --force` 無法略過過期 lock 檔的問題
+- 修正 CLAUDE.md 中連續 @~/ 檔案引用會因 Markdown 刪除線干擾而被錯誤解析的問題
+- Windows：修正外掛 MCP 伺服器因 log 目錄路徑含冒號而失敗的問題
 
 ## 2.0.65
 
