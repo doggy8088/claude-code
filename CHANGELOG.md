@@ -1269,7 +1269,7 @@
 
 ## 0.2.34
 
-- Vim bindings for text input - enable with /vim or /config
+- 文字輸入的 Vim 鍵位綁定：使用 /vim 或 /config 啟用
 
 ## 0.2.32
 
