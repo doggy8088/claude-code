@@ -2,115 +2,115 @@
 
 ## 2.1.0
 
-- Added automatic skill hot-reload - skills created or modified in `~/.claude/skills` or `.claude/skills` are now immediately available without restarting the session
-- Added support for running skills and slash commands in a forked sub-agent context using `context: fork` in skill frontmatter
-- Added support for `agent` field in skills to specify agent type for execution
-- Added `language` setting to configure Claude's response language (e.g., language: "japanese")
-- Changed Shift+Enter to work out of the box in iTerm2, WezTerm, Ghostty, and Kitty without modifying terminal configs
-- Added `respectGitignore` support in `settings.json` for per-project control over @-mention file picker behavior
-- Added `IS_DEMO` environment variable to hide email and organization from the UI, useful for streaming or recording sessions
-- Fixed security issue where sensitive data (OAuth tokens, API keys, passwords) could be exposed in debug logs
-- Fixed files and skills not being properly discovered when resuming sessions with `-c` or `--resume`
-- Fixed pasted content being lost when replaying prompts from history using up arrow or Ctrl+R search
-- Fixed Esc key with queued prompts to only move them to input without canceling the running task
-- Reduced permission prompts for complex bash commands
-- Fixed command search to prioritize exact and prefix matches on command names over fuzzy matches in descriptions
-- Fixed PreToolUse hooks to allow `updatedInput` when returning `ask` permission decision, enabling hooks to act as middleware while still requesting user consent
-- Fixed plugin path resolution for file-based marketplace sources
-- Fixed LSP tool being incorrectly enabled when no LSP servers were configured
-- Fixed background tasks failing with "git repository not found" error for repositories with dots in their names
-- Fixed Claude in Chrome support for WSL environments
-- Fixed Windows native installer silently failing when executable creation fails
-- Improved CLI help output to display options and subcommands in alphabetical order for easier navigation
-- Added wildcard pattern matching for Bash tool permissions using `*` at any position in rules (e.g., `Bash(npm *)`, `Bash(* install)`, `Bash(git * main)`)
-- Added unified Ctrl+B backgrounding for both bash commands and agents - pressing Ctrl+B now backgrounds all running foreground tasks simultaneously
-- Added support for MCP `list_changed` notifications, allowing MCP servers to dynamically update their available tools, prompts, and resources without requiring reconnection
-- Added `/teleport` and `/remote-env` slash commands for claude.ai subscribers, allowing them to resume and configure remote sessions
-- Added support for disabling specific agents using `Task(AgentName)` syntax in settings.json permissions or the `--disallowedTools` CLI flag
-- Added hooks support to agent frontmatter, allowing agents to define PreToolUse, PostToolUse, and Stop hooks scoped to the agent's lifecycle
-- Added hooks support for skill and slash command frontmatter
-- Added new Vim motions: `;` and `,` to repeat f/F/t/T motions, `y` operator for yank with `yy`/`Y`, `p`/`P` for paste, text objects (`iw`, `aw`, `iW`, `aW`, `i"`, `a"`, `i'`, `a'`, `i(`, `a(`, `i[`, `a[`, `i{`, `a{`), `>>` and `<<` for indent/dedent, and `J` to join lines
-- Added `/plan` command shortcut to enable plan mode directly from the prompt
-- Added slash command autocomplete support when `/` appears anywhere in input, not just at the beginning
-- Added `--tools` flag support in interactive mode to restrict which built-in tools Claude can use during interactive sessions
-- Added `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS` environment variable to override the default file read token limit
-- Added support for `once: true` config for hooks
-- Added support for YAML-style lists in frontmatter `allowed-tools` field for cleaner skill declarations
-- Added support for prompt and agent hook types from plugins (previously only command hooks were supported)
-- Added Cmd+V support for image paste in iTerm2 (maps to Ctrl+V)
-- Added left/right arrow key navigation for cycling through tabs in dialogs
-- Added real-time thinking block display in Ctrl+O transcript mode
-- Added filepath to full output in background bash task details dialog
-- Added Skills as a separate category in the context visualization
-- Fixed OAuth token refresh not triggering when server reports token expired but local expiration check disagrees
-- Fixed session persistence getting stuck after transient server errors by recovering from 409 conflicts when the entry was actually stored
-- Fixed session resume failures caused by orphaned tool results during concurrent tool execution
-- Fixed a race condition where stale OAuth tokens could be read from the keychain cache during concurrent token refresh attempts
-- Fixed AWS Bedrock subagents not inheriting EU/APAC cross-region inference model configuration, causing 403 errors when IAM permissions are scoped to specific regions
-- Fixed API context overflow when background tasks produce large output by truncating to 30K chars with file path reference
-- Fixed a hang when reading FIFO files by skipping symlink resolution for special file types
-- Fixed terminal keyboard mode not being reset on exit in Ghostty, iTerm2, Kitty, and WezTerm
-- Fixed Alt+B and Alt+F (word navigation) not working in iTerm2, Ghostty, Kitty, and WezTerm
-- Fixed `${CLAUDE_PLUGIN_ROOT}` not being substituted in plugin `allowed-tools` frontmatter, which caused tools to incorrectly require approval
-- Fixed files created by the Write tool using hardcoded 0o600 permissions instead of respecting the system umask
-- Fixed commands with `$()` command substitution failing with parse errors
-- Fixed multi-line bash commands with backslash continuations being incorrectly split and flagged for permissions
-- Fixed bash command prefix extraction to correctly identify subcommands after global options (e.g., `git -C /path log` now correctly matches `Bash(git log:*)` rules)
-- Fixed slash commands passed as CLI arguments (e.g., `claude /context`) not being executed properly
-- Fixed pressing Enter after Tab-completing a slash command selecting a different command instead of submitting the completed one
-- Fixed slash command argument hint flickering and inconsistent display when typing commands with arguments
-- Fixed Claude sometimes redundantly invoking the Skill tool when running slash commands directly
-- Fixed skill token estimates in `/context` to accurately reflect frontmatter-only loading
-- Fixed subagents sometimes not inheriting the parent's model by default
-- Fixed model picker showing incorrect selection for Bedrock/Vertex users using `--model haiku`
-- Fixed duplicate Bash commands appearing in permission request option labels
-- Fixed noisy output when background tasks complete - now shows clean completion message instead of raw output
-- Fixed background task completion notifications to appear proactively with bullet point
-- Fixed forked slash commands showing "AbortError" instead of "Interrupted" message when cancelled
-- Fixed cursor disappearing after dismissing permission dialogs
-- Fixed `/hooks` menu selecting wrong hook type when scrolling to a different option
-- Fixed images in queued prompts showing as "[object Object]" when pressing Esc to cancel
-- Fixed images being silently dropped when queueing messages while backgrounding a task
-- Fixed large pasted images failing with "Image was too large" error
-- Fixed extra blank lines in multiline prompts containing CJK characters (Japanese, Chinese, Korean)
-- Fixed ultrathink keyword highlighting being applied to wrong characters when user prompt text wraps to multiple lines
-- Fixed collapsed "Reading X files…" indicator incorrectly switching to past tense when thinking blocks appear mid-stream
-- Fixed Bash read commands (like `ls` and `cat`) not being counted in collapsed read/search groups, causing groups to incorrectly show "Read 0 files"
-- Fixed spinner token counter to properly accumulate tokens from subagents during execution
-- Fixed memory leak in git diff parsing where sliced strings retained large parent strings
-- Fixed race condition where LSP tool could return "no server available" during startup
-- Fixed feedback submission hanging indefinitely when network requests timeout
-- Fixed search mode in plugin discovery and log selector views exiting when pressing up arrow
-- Fixed hook success message showing trailing colon when hook has no output
-- Multiple optimizations to improve startup performance
-- Improved terminal rendering performance when using native installer or Bun, especially for text with emoji, ANSI codes, and Unicode characters
-- Improved performance when reading Jupyter notebooks with many cells
-- Improved reliability for piped input like `cat refactor.md | claude`
-- Improved reliability for AskQuestion tool
-- Improved sed in-place edit commands to render as file edits with diff preview
-- Improved Claude to automatically continue when response is cut off due to output token limit, instead of showing an error message
-- Improved compaction reliability
-- Improved subagents (Task tool) to continue working after permission denial, allowing them to try alternative approaches
-- Improved skills to show progress while executing, displaying tool uses as they happen
-- Improved skills from `/skills/` directories to be visible in the slash command menu by default (opt-out with `user-invocable: false` in frontmatter)
-- Improved skill suggestions to prioritize recently and frequently used skills
-- Improved spinner feedback when waiting for the first response token
-- Improved token count display in spinner to include tokens from background agents
-- Improved incremental output for async agents to give the main thread more control and visibility
-- Improved permission prompt UX with Tab hint moved to footer, cleaner Yes/No input labels with contextual placeholders
-- Improved the Claude in Chrome notification with shortened help text and persistent display until dismissed
-- Improved macOS screenshot paste reliability with TIFF format support
-- Improved `/stats` output
-- Updated Atlassian MCP integration to use a more reliable default configuration (streamable HTTP)
-- Changed "Interrupted" message color from red to grey for a less alarming appearance
-- Removed permission prompt when entering plan mode - users can now enter plan mode without approval
-- Removed underline styling from image reference links
-- [SDK] Changed minimum zod peer dependency to ^4.0.0
-- [VSCode] Added currently selected model name to the context menu
-- [VSCode] Added descriptive labels on auto-accept permission button (e.g., "Yes, allow npm for this project" instead of "Yes, and don't ask again")
-- [VSCode] Fixed paragraph breaks not rendering in markdown content
-- [VSCode] Fixed scrolling in the extension inadvertently scrolling the parent iframe
-- [Windows] Fixed issue with improper rendering
+- 新增技能（skills）自動熱重載：在 `~/.claude/skills` 或 `.claude/skills` 建立或修改的 skills，無需重新啟動工作階段即可立即使用
+- 新增支援在 fork 的子代理上下文中執行 skills 與斜線指令，可在 skill frontmatter 使用 `context: fork`
+- skills 新增支援 `agent` 欄位，用於指定執行的 agent 類型
+- 新增 `language` 設定，用於設定 Claude 回應語言（例如：language: "japanese"）
+- Shift+Enter 在 iTerm2、WezTerm、Ghostty 與 Kitty 可直接使用，無需修改終端機設定
+- `settings.json` 新增 `respectGitignore` 支援，可針對每個專案控制 @ 提及檔案選擇器行為
+- 新增 `IS_DEMO` 環境變數，可在 UI 隱藏 email 與組織資訊，適合直播或錄影
+- 修正安全性問題：敏感資料（OAuth tokens、API keys、passwords）可能在偵錯記錄中被曝露
+- 修正以 `-c` 或 `--resume` 續接工作階段時，檔案與 skills 未被正確探索的問題
+- 修正透過方向鍵上或 Ctrl+R 搜尋歷史重播提示詞時，貼上內容遺失的問題
+- 修正佇列提示詞時按 Esc 僅會將其移回輸入框，而不會取消正在執行的任務
+- 減少複雜 bash 指令的權限提示
+- 修正指令搜尋：優先精確與前綴比對指令名稱，而非描述的模糊比對
+- 修正 PreToolUse hooks：在回傳 `ask` 權限決策時允許 `updatedInput`，讓 hooks 可作為中介層，同時仍會請求使用者同意
+- 修正基於檔案的市集來源之外掛路徑解析
+- 修正未設定 LSP 伺服器時仍錯誤啟用 LSP 工具的問題
+- 修正儲存庫名稱含點號時，背景任務會出現 "git repository not found" 的問題
+- 修正 Claude in Chrome 對 WSL 環境的支援
+- 修正 Windows 原生安裝程式：當建立可執行檔失敗時會靜默失敗
+- 改善 CLI help 輸出：以字母順序顯示選項與子指令，方便導覽
+- Bash 工具權限新增萬用字元模式比對：規則中 `*` 可出現在任意位置（例如：`Bash(npm *)`、`Bash(* install)`、`Bash(git * main)`）
+- 新增統一的 Ctrl+B 背景化：按 Ctrl+B 會同時將所有前景 bash 指令與 agents 轉入背景
+- 新增支援 MCP `list_changed` 通知，讓 MCP 伺服器可動態更新其可用工具、提示與資源，無需重新連線
+- 為 claude.ai 訂閱者新增 `/teleport` 與 `/remote-env` 斜線指令，可續接並設定遠端工作階段
+- 新增支援停用特定 agents：可在 settings.json 權限使用 `Task(AgentName)` 語法，或使用 `--disallowedTools` CLI 旗標
+- agent frontmatter 新增 hooks 支援：agents 可定義 PreToolUse、PostToolUse 與 Stop hooks，並限制於 agent 生命週期範圍
+- skills 與斜線指令 frontmatter 新增 hooks 支援
+- 新增 Vim 動作：`;` 與 `,` 可重複 f/F/t/T，`y` 運算子支援 `yy`/`Y`，`p`/`P` 貼上，文字物件（`iw`、`aw`、`iW`、`aW`、`i"`、`a"`、`i'`、`a'`、`i(`、`a(`、`i[`、`a[`、`i{`、`a{`），`>>` 與 `<<` 縮排/反縮排，以及 `J` 合併行
+- 新增 `/plan` 指令捷徑，可直接從提示詞啟用計畫模式
+- 新增支援斜線指令自動補完：當 `/` 出現在輸入中的任何位置（不再僅限開頭）
+- 互動模式新增 `--tools` 旗標，可限制 Claude 在互動工作階段可使用的內建工具
+- 新增 `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS` 環境變數，可覆寫預設檔案讀取 token 上限
+- hooks 新增支援 `once: true` 設定
+- frontmatter 的 `allowed-tools` 欄位新增支援 YAML 風格清單，讓 skill 宣告更乾淨
+- 新增支援來自外掛的 prompt 與 agent hook 類型（先前僅支援 command hooks）
+- iTerm2 新增 Cmd+V 貼上圖片支援（對應 Ctrl+V）
+- 新增左右方向鍵可在對話框中循環切換分頁
+- Ctrl+O transcript 模式新增即時思考區塊顯示
+- 背景 bash 任務詳情對話框新增檔案路徑，可查看完整輸出
+- 上下文視覺化新增 Skills 類別
+- 修正 OAuth token refresh：當伺服器回報 token 過期但本機過期檢查不同步時，不會觸發更新的問題
+- 修正工作階段持久化在短暫伺服器錯誤後卡住：可從 409 conflicts 恢復（當該筆項目其實已儲存）
+- 修正並行工具執行時因孤兒工具結果（orphaned tool results）導致工作階段續接失敗的問題
+- 修正並行 token refresh 時，可能從鑰匙圈快取讀到過期 OAuth tokens 的競態條件
+- 修正 AWS Bedrock 子代理未繼承 EU/APAC 跨區域推論模型設定，當 IAM 權限限制於特定區域時會造成 403 錯誤
+- 修正背景任務產生大量輸出導致 API 上下文溢位：截斷至 30K 字元並附檔案路徑引用
+- 修正讀取 FIFO 檔案時卡住：對特殊檔案型別跳過 symlink 解析
+- 修正在 Ghostty、iTerm2、Kitty 與 WezTerm 退出時，終端機鍵盤模式未被重設的問題
+- 修正 iTerm2、Ghostty、Kitty 與 WezTerm 的 Alt+B 與 Alt+F（單字導覽）無法運作的問題
+- 修正外掛 `allowed-tools` frontmatter 中 `${CLAUDE_PLUGIN_ROOT}` 未被替換，導致工具錯誤要求核准
+- 修正 Write 工具建立檔案時硬編碼使用 0o600 權限，而非遵循系統 umask
+- 修正含 `$()` 命令替換的指令會出現解析錯誤（parse error）
+- 修正以反斜線續行的多行 bash 指令被錯誤分割並觸發權限判定的問題
+- 修正 bash 指令前綴抽取：可在全域選項後正確辨識子指令（例如 `git -C /path log` 現在可正確比對 `Bash(git log:*)` 規則）
+- 修正以 CLI 參數傳入斜線指令（例如 `claude /context`）未正確執行的問題
+- 修正 Tab 補完斜線指令後按 Enter 會選到不同指令而非提交的問題
+- 修正輸入帶參數斜線指令時，參數提示會閃爍且顯示不一致的問題
+- 修正 Claude 直接執行斜線指令時，有時會多餘呼叫 Skill 工具的問題
+- 修正 `/context` 的 skill token 估算，使其準確反映僅載入 frontmatter 的情況
+- 修正子代理有時預設未繼承父層模型的問題
+- 修正 Bedrock/Vertex 使用者使用 `--model haiku` 時，模型選擇器顯示錯誤選取的問題
+- 修正權限請求選項標籤中出現重複 Bash 指令的問題
+- 修正背景任務完成時雜訊輸出：改顯示乾淨的完成訊息，而非原始輸出
+- 修正背景任務完成通知：改為主動顯示並以項目符號呈現
+- 修正取消 fork 的斜線指令時顯示 "AbortError" 而非 "Interrupted" 的問題
+- 修正關閉權限對話框後游標消失的問題
+- 修正 `/hooks` 選單捲動到不同選項時會選錯 hook 類型的問題
+- 修正按 Esc 取消佇列提示詞時圖片顯示為 "[object Object]" 的問題
+- 修正在背景化任務時佇列訊息會悄悄丟失圖片的問題
+- 修正貼上大圖時會失敗並顯示 "Image was too large" 的錯誤
+- 修正含 CJK 字元（日本語、中文、韓文）的多行提示詞出現額外空白行的問題
+- 修正提示詞換行到多行時，ultrathink 關鍵字高亮套用到錯誤字元的問題
+- 修正折疊的 "Reading X files…" 指示器在串流中途出現思考區塊時，會錯誤切換成過去式的問題
+- 修正折疊的讀取/搜尋分組未計入 bash 讀取指令（如 `ls`、`cat`），導致分組錯誤顯示 "Read 0 files" 的問題
+- 修正 spinner token 計數器可在執行期間正確累積子代理的 tokens
+- 修正 git diff 解析的記憶體洩漏：切片字串保留了大型 parent string
+- 修正 LSP 工具在啟動期間可能回傳 "no server available" 的競態條件
+- 修正回饋送出在網路請求逾時時會無限卡住的問題
+- 修正外掛探索與 log selector 檢視的搜尋模式：按上方向鍵會退出的問題
+- 修正 hook 無輸出時，成功訊息會顯示多餘冒號的問題
+- 多項最佳化以提升啟動效能
+- 改善使用原生安裝程式或 Bun 時的終端渲染效能，特別是包含 emoji、ANSI codes 與 Unicode 字元的文字
+- 改善讀取包含大量 cells 的 Jupyter notebooks 效能
+- 改善管線輸入的可靠性，例如 `cat refactor.md | claude`
+- 改善 AskQuestion 工具的可靠性
+- 改善 sed 原地編輯指令：顯示為檔案編輯並提供 diff 預覽
+- 改善 Claude：當回應因輸出 token 上限而被截斷時，會自動繼續，而非顯示錯誤
+- 改善壓縮（compaction）可靠性
+- 改善子代理（Task 工具）：在權限被拒絕後仍可繼續嘗試其他方法
+- 改善 skills：執行期間顯示進度，並即時顯示工具使用
+- 改善 `/skills/` 目錄的 skills：預設會在斜線指令選單中可見（可在 frontmatter 設定 `user-invocable: false` 停用）
+- 改善 skill 建議：優先近期與常用 skills
+- 改善等待第一個回應 token 時的 spinner 回饋
+- 改善 spinner 的 token 計數顯示：包含來自背景 agents 的 tokens
+- 改善非同步 agents 的增量輸出，讓主執行緒更有控制力與可見性
+- 改善權限提示 UX：Tab 提示移至頁尾，Yes/No 輸入標籤更乾淨，並加入情境化 placeholder
+- 改善 Claude in Chrome 通知：縮短說明文字，並持續顯示直到被關閉
+- 改善 macOS 截圖貼上可靠性，新增 TIFF 格式支援
+- 改善 `/stats` 輸出
+- 更新 Atlassian MCP 整合，改用更可靠的預設設定（可串流 HTTP）
+- 將 "Interrupted" 訊息顏色由紅色改為灰色，降低警示感
+- 移除進入計畫模式時的權限提示——使用者現在可無需核准就進入計畫模式
+- 移除圖片引用連結的底線樣式
+- [SDK] 將 zod 的 peer dependency 最低版本改為 ^4.0.0
+- [VSCode] 在 context menu 新增目前選取的模型名稱
+- [VSCode] 在自動接受權限按鈕新增描述性標籤（例如 "Yes, allow npm for this project" 取代 "Yes, and don't ask again"）
+- [VSCode] 修正 markdown 內容中的段落換行未被渲染的問題
+- [VSCode] 修正在擴充套件內捲動會不小心捲動父層 iframe 的問題
+- [Windows] 修正渲染不正確的問題
 
 ## 2.0.76
 
