@@ -389,11 +389,11 @@
 
 ## 2.0.35
 
-- Improve fuzzy search results when searching commands
-- Improved VS Code extension to respect `chat.fontSize` and `chat.fontFamily` settings throughout the entire UI, and apply font changes immediately without requiring reload
-- Added `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY` environment variable to automatically exit SDK mode after a specified idle duration, useful for automated workflows and scripts
-- Migrated `ignorePatterns` from project config to deny permissions in the localSettings.
-- Fixed menu navigation getting stuck on items with empty string or other falsy values (e.g., in the `/hooks` menu)
+- 改善搜尋指令時的模糊搜尋結果
+- 改善 VS Code 擴充套件：全 UI 皆遵循 `chat.fontSize` 與 `chat.fontFamily` 設定，且字型變更可立即生效，無需重新載入
+- 新增 `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY` 環境變數，可在指定閒置時間後自動退出 SDK 模式，適用於自動化流程與腳本
+- 將 `ignorePatterns` 從專案設定遷移到 localSettings 的拒絕權限（deny permissions）
+- 修正選單導覽在空字串或其他 falsy 值項目上卡住的問題（例如 `/hooks` 選單）
 
 ## 2.0.34
 
