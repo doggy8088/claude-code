@@ -904,12 +904,12 @@
 
 ## 1.0.45
 
-- Redesigned Search (Grep) tool with new tool input parameters and features
-- Disabled IDE diffs for notebook files, fixing "Timeout waiting after 1000ms" error
-- Fixed config file corruption issue by enforcing atomic writes
-- Updated prompt input undo to Ctrl+\_ to avoid breaking existing Ctrl+U behavior, matching zsh's undo shortcut
-- Stop Hooks: Fixed transcript path after /clear and fixed triggering when loop ends with tool call
-- Custom slash commands: Restored namespacing in command names based on subdirectories. For example, .claude/commands/frontend/component.md is now /frontend:component, not /component.
+- 重新設計 Search（Grep）工具，加入新的工具輸入參數與功能
+- 對 notebook 檔停用 IDE diff，修正 "Timeout waiting after 1000ms" 錯誤
+- 強制採用原子寫入（atomic writes），修正設定檔損毀問題
+- 將提示詞輸入的復原更新為 Ctrl+\_，避免破壞既有 Ctrl+U 行為，並與 zsh 的復原快捷鍵一致
+- Stop Hooks：修正 /clear 後的逐字稿路徑，並修正當迴圈以工具呼叫結束時的觸發問題
+- 自訂斜線指令：依子目錄恢復指令名稱命名空間。例如：.claude/commands/frontend/component.md 現為 /frontend:component，而非 /component。
 
 ## 1.0.44
 
