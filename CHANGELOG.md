@@ -745,7 +745,7 @@
 
 ## 1.0.80
 
-- UI improvements: Fix text contrast for custom subagent colors and spinner rendering issues
+- UI 改進：修正自訂子代理色彩的文字對比與旋轉指示器渲染問題
 
 ## 1.0.77
 
