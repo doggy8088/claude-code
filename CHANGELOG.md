@@ -1024,7 +1024,7 @@
 
 ## 1.0.22
 
-- SDK: Renamed `total_cost` to `total_cost_usd`
+- SDK：將 `total_cost` 重新命名為 `total_cost_usd`
 
 ## 1.0.21
 
