@@ -475,10 +475,10 @@
 
 ## 2.0.22
 
-- Fixed content layout shift when scrolling through slash commands
-- IDE: Add toggle to enable/disable thinking.
-- Fix bug causing duplicate permission prompts with parallel tool calls
-- Add support for enterprise managed MCP allowlist and denylist
+- 修正瀏覽斜線指令時內容版面位移的問題
+- IDE：新增開關，可啟用／停用思考模式
+- 修正並行工具呼叫導致重複權限提示的錯誤
+- 新增支援由企業管理的 MCP 允許清單與拒絕清單
 
 ## 2.0.21
 
