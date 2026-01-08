@@ -992,11 +992,11 @@
 
 ## 1.0.28
 
-- Slash commands: Fix selector display during history navigation
-- Resizes images before upload to prevent API size limit errors
-- Added XDG_CONFIG_HOME support to configuration directory
-- Performance optimizations for memory usage
-- New attributes (terminal.type, language) in OpenTelemetry logging
+- 斜線指令：修正瀏覽歷史紀錄時選擇器的顯示問題
+- 上傳前會先調整圖片大小，以避免 API 尺寸上限錯誤
+- 設定目錄新增支援 XDG_CONFIG_HOME
+- 記憶體使用效能最佳化
+- OpenTelemetry 記錄新增屬性（terminal.type、language）
 
 ## 1.0.27
 
