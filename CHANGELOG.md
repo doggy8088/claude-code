@@ -913,10 +913,10 @@
 
 ## 1.0.44
 
-- New /export command lets you quickly export a conversation for sharing
-- MCP: resource_link tool results are now supported
-- MCP: tool annotations and tool titles now display in /mcp view
-- Changed Ctrl+Z to suspend Claude Code. Resume by running `fg`. Prompt input undo is now Ctrl+U.
+- 新增 /export 指令，讓你快速匯出對話以便分享
+- MCP：現在支援 resource_link 工具結果
+- MCP：工具註解與工具標題現在會顯示於 /mcp 檢視中
+- 將 Ctrl+Z 改為暫停 Claude Code；可執行 `fg` 繼續。提示詞輸入的復原改為 Ctrl+U。
 
 ## 1.0.43
 
