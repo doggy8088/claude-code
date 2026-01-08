@@ -251,7 +251,7 @@
 
 ## 2.0.61
 
-- Reverted VSCode support for multiple terminal clients due to responsiveness issues.
+- 因反應速度問題，回復（revert）VSCode 對多個終端機客戶端同時連線的支援。
 
 ## 2.0.60
 
