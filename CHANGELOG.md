@@ -1244,9 +1244,9 @@
 
 ## 0.2.47
 
-- Press Tab to auto-complete file and folder names
-- Press Shift + Tab to toggle auto-accept for file edits
-- Automatic conversation compaction for infinite conversation length (toggle with /config)
+- 按 Tab 自動補完檔案與資料夾名稱
+- 按 Shift + Tab 切換是否自動接受檔案編輯
+- 自動壓縮對話以支援無限對話長度（可用 /config 切換）
 
 ## 0.2.44
 
