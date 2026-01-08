@@ -224,20 +224,20 @@
 
 ## 2.0.64
 
-- Made auto-compacting instant
-- Agents and bash commands can run asynchronously and send messages to wake up the main agent
-- /stats now provides users with interesting CC stats, such as favorite model, usage graph, usage streak
-- Added named session support: use `/rename` to name sessions, `/resume <name>` in REPL or `claude --resume <name>` from the terminal to resume them
-- Added support for .claude/rules/`.  See https://code.claude.com/docs/en/memory for details.
-- Added image dimension metadata when images are resized, enabling accurate coordinate mappings for large images
-- Fixed auto-loading .env when using native installer
-- Fixed `--system-prompt` being ignored when using `--continue` or `--resume` flags
-- Improved `/resume` screen with grouped forked sessions and keyboard shortcuts for preview (P) and rename (R)
-- VSCode: Added copy-to-clipboard button on code blocks and bash tool inputs
-- VSCode: Fixed extension not working on Windows ARM64 by falling back to x64 binary via emulation
-- Bedrock: Improve efficiency of token counting
-- Bedrock: Add support for `aws login` AWS Management Console credentials
-- Unshipped AgentOutputTool and BashOutputTool, in favor of a new unified TaskOutputTool
+- 讓自動壓縮（auto-compacting）即時完成
+- Agents 與 bash 指令可非同步執行，並可傳送訊息喚醒主 agent
+- /stats 現在提供使用者有趣的 CC 統計資訊，例如最常用模型、用量圖表、使用連續天數
+- 新增具名工作階段：使用 `/rename` 命名工作階段；在 REPL 使用 `/resume <name>`，或在終端機使用 `claude --resume <name>` 續接
+- 新增支援 .claude/rules/`。詳情請見 https://code.claude.com/docs/en/memory
+- 圖片縮放時新增圖片尺寸 metadata，讓大型圖片可準確對應座標
+- 修正使用原生安裝程式時 .env 會自動載入的問題
+- 修正使用 `--continue` 或 `--resume` 旗標時 `--system-prompt` 被忽略的問題
+- 改善 `/resume` 畫面：將 forked 工作階段分組，並加入預覽（P）與重新命名（R）的鍵盤快捷鍵
+- VSCode：在程式碼區塊與 bash 工具輸入新增複製到剪貼簿按鈕
+- VSCode：修正擴充套件在 Windows ARM64 無法運作的問題，改以模擬方式回退使用 x64 二進位
+- Bedrock：改善 token 計數效率
+- Bedrock：新增支援 `aws login` 的 AWS Management Console 憑證
+- 移除未發佈的 AgentOutputTool 與 BashOutputTool，改用新的統一 TaskOutputTool
 
 ## 2.0.62
 
