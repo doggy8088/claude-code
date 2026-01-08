@@ -494,8 +494,8 @@
 
 ## 2.0.19
 
-- Auto-background long-running bash commands instead of killing them. Customize with BASH_DEFAULT_TIMEOUT_MS
-- Fixed a bug where Haiku was unnecessarily called in print mode
+- 自動將長時間執行的 bash 指令轉到背景，而不是直接終止；可用 BASH_DEFAULT_TIMEOUT_MS 自訂
+- 修正列印模式下不必要呼叫 Haiku 的錯誤
 
 ## 2.0.17
 
