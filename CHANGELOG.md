@@ -330,10 +330,10 @@
 
 ## 2.0.47
 
-- Improved error messages and validation for `claude --teleport`
-- Improved error handling in `/usage`
-- Fixed race condition with history entry not getting logged at exit
-- Fixed Vertex AI configuration not being applied from `settings.json`
+- 改善 `claude --teleport` 的錯誤訊息與驗證
+- 改善 `/usage` 的錯誤處理
+- 修正退出時歷史紀錄項目未被記錄的競態條件（race condition）
+- 修正 `settings.json` 的 Vertex AI 設定未被套用的問題
 
 ## 2.0.46
 
