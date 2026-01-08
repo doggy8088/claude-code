@@ -337,7 +337,7 @@
 
 ## 2.0.46
 
-- Fixed image files being reported with incorrect media type when format cannot be detected from metadata
+- 修正當無法從 metadata 偵測格式時，圖片檔被回報為不正確的 media type 的問題
 
 ## 2.0.45
 
