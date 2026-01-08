@@ -523,7 +523,7 @@
 
 ## 2.0.13
 
-- Fixed `/plugin` not working on native build
+- 修正 `/plugin` 在原生版本無法運作的問題
 
 ## 2.0.12
 
