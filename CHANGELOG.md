@@ -173,18 +173,18 @@
 
 ## 2.0.70
 
-- Added Enter key to accept and submit prompt suggestions immediately (tab still accepts for editing)
-- Added wildcard syntax `mcp__server__*` for MCP tool permissions to allow or deny all tools from a server
-- Added auto-update toggle for plugin marketplaces, allowing per-marketplace control over automatic updates
-- Added `current_usage` field to status line input, enabling accurate context window percentage calculations
-- Fixed input being cleared when processing queued commands while the user was typing
-- Fixed prompt suggestions replacing typed input when pressing Tab
-- Fixed diff view not updating when terminal is resized
-- Improved memory usage by 3x for large conversations
-- Improved resolution of stats screenshots copied to clipboard (Ctrl+S) for crisper images
-- Removed # shortcut for quick memory entry (tell Claude to edit your CLAUDE.md instead)
-- Fix thinking mode toggle in /config not persisting correctly
-- Improve UI for file creation permission dialog
+- 新增 Enter 鍵：可立即接受並提交提示詞建議（Tab 仍用於接受後再編輯）
+- MCP 工具權限新增萬用字元語法 `mcp__server__*`，可允許或拒絕某伺服器的所有工具
+- 外掛市集新增自動更新開關，可針對每個市集個別控制是否自動更新
+- 狀態列輸入新增 `current_usage` 欄位，可更準確計算上下文視窗百分比
+- 修正在使用者打字時處理佇列指令會清空輸入內容的問題
+- 修正按 Tab 時提示詞建議會覆蓋已輸入內容的問題
+- 修正終端機尺寸變更時 diff 檢視未更新的問題
+- 大型對話的記憶體使用量改善 3 倍
+- 提升複製到剪貼簿的統計截圖（Ctrl+S）解析度，畫面更清晰
+- 移除使用 # 快捷新增記憶（請改請 Claude 編輯你的 CLAUDE.md）
+- 修正 /config 中的思考模式切換無法正確持久化的問題
+- 改善檔案建立權限對話框的 UI
 
 ## 2.0.69
 
