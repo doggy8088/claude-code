@@ -858,10 +858,10 @@
 
 ## 1.0.55
 
-- Clarified knowledge cutoff for Opus 4 and Sonnet 4 models
-- Windows: fixed Ctrl+Z crash
-- SDK: Added ability to capture error logging
-- Add --system-prompt-file option to override system prompt in print mode
+- 釐清 Opus 4 與 Sonnet 4 模型的知識截止日期（knowledge cutoff）
+- Windows：修正 Ctrl+Z 當機
+- SDK：新增可擷取錯誤記錄（error logging）的能力
+- 新增 --system-prompt-file 選項，可在列印模式下覆寫系統提示詞
 
 ## 1.0.54
 
