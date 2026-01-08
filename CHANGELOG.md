@@ -383,9 +383,9 @@
 
 ## 2.0.36
 
-- Fixed: DISABLE_AUTOUPDATER environment variable now properly disables package manager update notifications
-- Fixed queued messages being incorrectly executed as bash commands
-- Fixed input being lost when typing while a queued message is processed
+- 修正：DISABLE_AUTOUPDATER 環境變數現在可正確停用套件管理器更新通知
+- 修正佇列訊息被誤當成 bash 指令執行的問題
+- 修正在處理佇列訊息時輸入內容遺失的問題
 
 ## 2.0.35
 
