@@ -988,7 +988,7 @@
 
 ## 1.0.29
 
-- Improved CJK character support in cursor navigation and rendering
+- 改善游標導覽與渲染時對 CJK 字元的支援
 
 ## 1.0.28
 
