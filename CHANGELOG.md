@@ -1200,7 +1200,7 @@
 
 ## 0.2.67
 
-- Shared project permission rules can be saved in .claude/settings.json
+- 可將共享的專案權限規則儲存在 .claude/settings.json
 
 ## 0.2.66
 
