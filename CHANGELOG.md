@@ -873,8 +873,8 @@
 
 ## 1.0.53
 
-- Updated @-mention file truncation from 100 lines to 2000 lines
-- Add helper script settings for AWS token refresh: awsAuthRefresh (for foreground operations like aws sso login) and awsCredentialExport (for background operation with STS-like response).
+- 將 @ 提及檔案的截斷上限由 100 行提高到 2000 行
+- 新增用於 AWS 權杖更新的輔助腳本設定：awsAuthRefresh（用於 aws sso login 等前景操作）與 awsCredentialExport（用於回傳類 STS 回應的背景操作）。
 
 ## 1.0.52
 
