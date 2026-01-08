@@ -270,9 +270,9 @@
 
 ## 2.0.58
 
-- Pro users now have access to Opus 4.5 as part of their subscription!
-- Fixed timer duration showing "11m 60s" instead of "12m 0s"
-- Windows: Managed settings now prefer `C:\Program Files\ClaudeCode` if it exists. Support for `C:\ProgramData\ClaudeCode` will be removed in a future version.
+- Pro 使用者現在可在訂閱方案中使用 Opus 4.5！
+- 修正計時器時間顯示為 "11m 60s" 而非 "12m 0s" 的問題
+- Windows：受管理設定現在會優先使用 `C:\\Program Files\\ClaudeCode`（若存在）。未來版本將移除對 `C:\\ProgramData\\ClaudeCode` 的支援。
 
 ## 2.0.57
 
