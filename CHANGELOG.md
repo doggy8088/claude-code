@@ -1240,7 +1240,7 @@
 
 ## 0.2.49
 
-- Previous MCP server scopes have been renamed: previous "project" scope is now "local" and "global" scope is now "user"
+- 既有 MCP 伺服器範圍已重新命名：原本的 "project" 現為 "local"，"global" 現為 "user"
 
 ## 0.2.47
 
