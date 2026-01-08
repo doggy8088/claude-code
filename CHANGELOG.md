@@ -1111,10 +1111,10 @@
 
 ## 0.2.117
 
-- Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields
-- Introduced settings.cleanupPeriodDays
-- Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var
-- Introduced --debug mode
+- 重大變更：--print 的 JSON 輸出現在會回傳巢狀的 message 物件，以便在新增 metadata 欄位時保持向前相容
+- 新增 settings.cleanupPeriodDays
+- 新增 CLAUDE_CODE_API_KEY_HELPER_TTL_MS 環境變數
+- 新增 --debug 模式
 
 ## 0.2.108
 
