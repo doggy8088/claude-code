@@ -783,13 +783,13 @@
 
 ## 1.0.68
 
-- Fix incorrect model names being used for certain commands like `/pr-comments`
-- Windows: improve permissions checks for allow / deny tools and project trust. This may create a new project entry in `.claude.json` - manually merge the history field if desired.
-- Windows: improve sub-process spawning to eliminate "No such file or directory" when running commands like pnpm
-- Enhanced /doctor command with CLAUDE.md and MCP tool context for self-serve debugging
-- SDK: Added canUseTool callback support for tool confirmation
-- Added `disableAllHooks` setting
-- Improved file suggestions performance in large repos
+- 修正像 `/pr-comments` 等特定指令使用了不正確的模型名稱
+- Windows：改善允許／拒絕工具與專案信任的權限檢查。這可能會在 `.claude.json` 建立新的專案項目——如有需要，請手動合併 history 欄位。
+- Windows：改善子行程（sub-process）啟動，避免執行 pnpm 等指令時出現 "No such file or directory"
+- 強化 /doctor 指令：加入 CLAUDE.md 與 MCP 工具上下文，方便自助除錯
+- SDK：新增 canUseTool callback 支援，用於工具確認
+- 新增 `disableAllHooks` 設定
+- 改善大型儲存庫中的檔案建議效能
 
 ## 1.0.65
 
