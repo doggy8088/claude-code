@@ -581,16 +581,16 @@
 
 ## 2.0.0
 
-- New native VS Code extension
-- Fresh coat of paint throughout the whole app
-- /rewind a conversation to undo code changes
-- /usage command to see plan limits
-- Tab to toggle thinking (sticky across sessions)
-- Ctrl-R to search history
-- Unshipped claude config command
-- Hooks: Reduced PostToolUse 'tool_use' ids were found without 'tool_result' blocks errors
-- SDK: The Claude Code SDK is now the Claude Agent SDK
-- Add subagents dynamically with `--agents` flag
+- 全新的原生 VS Code 擴充套件
+- 全應用程式 UI 全面換新
+- 使用 /rewind 回溯對話以復原程式碼變更
+- 使用 /usage 指令查看方案限制
+- 按 Tab 切換思考模式（跨工作階段保留）
+- 使用 Ctrl-R 搜尋歷史紀錄
+- 移除尚未發佈的 claude config 指令
+- Hooks：減少 PostToolUse 出現「找到沒有 'tool_result' 區塊的 'tool_use' id」的錯誤
+- SDK：Claude Code SDK 現已更名為 Claude Agent SDK
+- 使用 `--agents` 旗標動態加入子代理
 
 ## 1.0.126
 
