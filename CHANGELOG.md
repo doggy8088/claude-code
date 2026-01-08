@@ -740,8 +740,8 @@
 
 ## 1.0.81
 
-- Released output styles, including new built-in educational output styles "Explanatory" and "Learning". Docs: https://code.claude.com/docs/en/output-styles
-- Agents: Fix custom agent loading when agent files are unparsable
+- 發布輸出風格（output styles），包含新的內建教學風格 "Explanatory" 與 "Learning"。文件：https://code.claude.com/docs/en/output-styles
+- Agents：修正當 agent 檔案無法解析時，自訂 agent 無法載入的問題
 
 ## 1.0.80
 
