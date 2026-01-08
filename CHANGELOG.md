@@ -298,10 +298,10 @@
 
 ## 2.0.52
 
-- Fixed duplicate message display when starting Claude with a command line argument
-- Fixed `/usage` command progress bars to fill up as usage increases (instead of showing remaining percentage)
-- Fixed image pasting not working on Linux systems running Wayland (now falls back to wl-paste when xclip is unavailable)
-- Permit some uses of `$!` in bash commands
+- 修正以命令列參數啟動 Claude 時訊息重複顯示的問題
+- 修正 `/usage` 進度條：用量增加時會逐步填滿（而非顯示剩餘百分比）
+- 修正在執行 Wayland 的 Linux 上無法貼上圖片的問題（當 xclip 不可用時，現在會回退改用 wl-paste）
+- 允許在 bash 指令中使用部分 `$!` 用法
 
 ## 2.0.51
 
