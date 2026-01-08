@@ -1118,12 +1118,12 @@
 
 ## 0.2.108
 
-- You can now send messages to Claude while it works to steer Claude in real-time
-- Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars
-- Fixed a bug where thinking was not working in -p mode
-- Fixed a regression in /cost reporting
-- Deprecated MCP wizard interface in favor of other MCP commands
-- Lots of other bugfixes and improvements
+- 現在可在 Claude 工作時傳送訊息，即時引導 Claude
+- 新增 BASH_DEFAULT_TIMEOUT_MS 與 BASH_MAX_TIMEOUT_MS 環境變數
+- 修正在 -p 模式下思考功能無法運作的錯誤
+- 修正 /cost 報告的回歸問題
+- 以其他 MCP 指令取代 MCP 精靈介面，並將其標記為已棄用
+- 另包含多項錯誤修正與改進
 
 ## 0.2.107
 
