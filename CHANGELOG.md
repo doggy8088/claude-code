@@ -617,11 +617,11 @@
 
 ## 1.0.120
 
-- Fix input lag during typing, especially noticeable with large prompts
-- Improved VSCode extension command registry and sessions dialog user experience
-- Enhanced sessions dialog responsiveness and visual feedback
-- Fixed IDE compatibility issue by removing worktree support check
-- Fixed security vulnerability where Bash tool permission checks could be bypassed using prefix matching
+- 修正打字輸入延遲問題，特別是在大型提示詞下更明顯
+- 改善 VSCode 擴充套件指令登錄與工作階段對話框的使用體驗
+- 強化工作階段對話框的反應速度與視覺回饋
+- 移除 worktree 支援檢查，修正 IDE 相容性問題
+- 修正安全性漏洞：Bash 工具的權限檢查可能被前綴比對（prefix matching）繞過
 
 ## 1.0.119
 
