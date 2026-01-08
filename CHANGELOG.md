@@ -958,7 +958,7 @@
 
 ## 1.0.35
 
-- Added support for MCP OAuth Authorization Server discovery
+- 新增支援 MCP OAuth 授權伺服器探索（discovery）
 
 ## 1.0.34
 
