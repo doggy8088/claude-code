@@ -882,15 +882,15 @@
 
 ## 1.0.51
 
-- Added support for native Windows (requires Git for Windows)
-- Added support for Bedrock API keys through environment variable AWS_BEARER_TOKEN_BEDROCK
-- Settings: /doctor can now help you identify and fix invalid setting files
-- `--append-system-prompt` can now be used in interactive mode, not just --print/-p.
-- Increased auto-compact warning threshold from 60% to 80%
-- Fixed an issue with handling user directories with spaces for shell snapshots
-- OTEL resource now includes os.type, os.version, host.arch, and wsl.version (if running on Windows Subsystem for Linux)
-- Custom slash commands: Fixed user-level commands in subdirectories
-- Plan mode: Fixed issue where rejected plan from sub-task would get discarded
+- 新增支援原生 Windows（需要 Git for Windows）
+- 新增支援透過環境變數 AWS_BEARER_TOKEN_BEDROCK 使用 Bedrock API 金鑰
+- Settings：/doctor 現在可協助你辨識並修正無效的設定檔
+- `--append-system-prompt` 現在可用於互動模式，不再僅限於 --print/-p
+- 將 auto-compact 警告門檻由 60% 提高至 80%
+- 修正 shell 快照在處理含空白的使用者目錄時的問題
+- OTEL resource 現在包含 os.type、os.version、host.arch，以及 wsl.version（若在 Windows Subsystem for Linux 上執行）
+- 自訂斜線指令：修正子目錄中的使用者層級指令
+- 計畫模式：修正子任務遭拒的計畫會被丟棄的問題
 
 ## 1.0.48
 
