@@ -1127,7 +1127,7 @@
 
 ## 0.2.107
 
-- CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch
+- CLAUDE.md 檔現在可匯入其他檔案：在 ./CLAUDE.md 加入 @path/to/file.md，即可在啟動時載入額外檔案
 
 ## 0.2.106
 
