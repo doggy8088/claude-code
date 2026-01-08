@@ -1278,8 +1278,8 @@
 
 ## 0.2.31
 
-- Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation
-- MCP debug mode: Run with --mcp-debug flag to get more information about MCP server errors
+- 自訂斜線指令：.claude/commands/ 目錄中的 Markdown 檔現在會顯示為自訂斜線指令，用於將提示詞插入你的對話
+- MCP 偵錯模式：使用 --mcp-debug 旗標執行，可取得更多 MCP 伺服器錯誤資訊
 
 ## 0.2.30
 
