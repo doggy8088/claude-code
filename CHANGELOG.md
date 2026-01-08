@@ -806,7 +806,7 @@
 
 ## 1.0.63
 
-- Windows: Fixed file search, @agent mentions, and custom slash commands functionality
+- Windows：修正檔案搜尋、@agent 提及與自訂斜線指令功能
 
 ## 1.0.62
 
