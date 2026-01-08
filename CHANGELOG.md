@@ -122,19 +122,19 @@
 
 ## 2.0.74
 
-- Added LSP (Language Server Protocol) tool for code intelligence features like go-to-definition, find references, and hover documentation
-- Added `/terminal-setup` support for Kitty, Alacritty, Zed, and Warp terminals
-- Added ctrl+t shortcut in `/theme` to toggle syntax highlighting on/off
-- Added syntax highlighting info to theme picker
-- Added guidance for macOS users when Alt shortcuts fail due to terminal configuration
-- Fixed skill `allowed-tools` not being applied to tools invoked by the skill
-- Fixed Opus 4.5 tip incorrectly showing when user was already using Opus
-- Fixed a potential crash when syntax highlighting isn't initialized correctly
-- Fixed visual bug in `/plugins discover` where list selection indicator showed while search box was focused
-- Fixed macOS keyboard shortcuts to display 'opt' instead of 'alt'
-- Improved `/context` command visualization with grouped skills and agents by source, slash commands, and sorted token count
-- [Windows] Fixed issue with improper rendering
-- [VSCode] Added gift tag pictogram for year-end promotion message
+- 新增 LSP（Language Server Protocol）工具，提供程式碼智慧功能，例如跳至定義、尋找引用、懸浮文件
+- `/terminal-setup` 新增支援 Kitty、Alacritty、Zed 與 Warp 終端機
+- 在 `/theme` 新增 ctrl+t 快捷鍵，可切換語法醒目提示開／關
+- 主題選擇器新增語法醒目提示資訊
+- 新增給 macOS 使用者的指引：當終端機設定導致 Alt 快捷鍵失效時的處理方式
+- 修正 skill 的 `allowed-tools` 未套用到由 skill 呼叫的工具之問題
+- 修正使用者已在使用 Opus 時仍錯誤顯示 Opus 4.5 提示的問題
+- 修正語法醒目提示未正確初始化時可能當機的問題
+- 修正 `/plugins discover` 視覺錯誤：搜尋框聚焦時仍顯示清單選取指示器
+- 修正 macOS 快捷鍵顯示：改顯示 'opt' 而非 'alt'
+- 改善 `/context` 視覺化：依來源分組 skills 與 agents、加入斜線指令，並依 token 數排序
+- [Windows] 修正渲染不正確的問題
+- [VSCode] 年終促銷訊息新增禮物標籤圖示
 
 ## 2.0.73
 
