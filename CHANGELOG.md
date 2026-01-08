@@ -715,8 +715,8 @@
 
 ## 1.0.85
 
-- Status line input now includes session cost info
-- Hooks: Introduced SessionEnd hook
+- 狀態列輸入現在包含工作階段成本資訊
+- Hooks：新增 SessionEnd hook
 
 ## 1.0.84
 
