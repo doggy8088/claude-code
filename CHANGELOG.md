@@ -697,7 +697,7 @@
 
 ## 1.0.90
 
-- Settings file changes take effect immediately - no restart required
+- Settings 檔案變更會立即生效——不需要重新啟動
 
 ## 1.0.88
 
