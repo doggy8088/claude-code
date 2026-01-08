@@ -1000,10 +1000,10 @@
 
 ## 1.0.27
 
-- Streamable HTTP MCP servers are now supported
-- Remote MCP servers (SSE and HTTP) now support OAuth
-- MCP resources can now be @-mentioned
-- /resume slash command to switch conversations within Claude Code
+- 現在支援可串流的 HTTP MCP 伺服器
+- 遠端 MCP 伺服器（SSE 與 HTTP）現在支援 OAuth
+- MCP 資源現在可用 @ 提及
+- 新增 /resume 斜線指令，可在 Claude Code 中切換對話
 
 ## 1.0.25
 
