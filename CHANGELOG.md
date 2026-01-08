@@ -846,9 +846,9 @@
 
 ## 1.0.57
 
-- Added support for specifying a model in slash commands
-- Improved permission messages to help Claude understand allowed tools
-- Fix: Remove trailing newlines from bash output in terminal wrapping
+- 新增支援在斜線指令中指定模型
+- 改善權限訊息，協助 Claude 理解允許使用的工具
+- 修正：終端機換行處理時移除 bash 輸出末尾的換行字元
 
 ## 1.0.56
 
