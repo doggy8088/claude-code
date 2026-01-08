@@ -709,9 +709,9 @@
 
 ## 1.0.86
 
-- Added /context to help users self-serve debug context issues
-- SDK: Added UUID support for all SDK messages
-- SDK: Added `--replay-user-messages` to replay user messages back to stdout
+- 新增 /context，協助使用者自助除錯上下文問題
+- SDK：所有 SDK 訊息新增 UUID 支援
+- SDK：新增 `--replay-user-messages`，可將使用者訊息重新輸出到 stdout
 
 ## 1.0.85
 
