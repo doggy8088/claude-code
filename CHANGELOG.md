@@ -324,9 +324,9 @@
 
 ## 2.0.49
 
-- Added readline-style ctrl-y for pasting deleted text
-- Improved clarity of usage limit warning message
-- Fixed handling of subagent permissions
+- 新增 readline 風格的 ctrl-y，可貼上被刪除的文字
+- 提升用量限制警告訊息的清晰度
+- 修正子代理權限處理
 
 ## 2.0.47
 
