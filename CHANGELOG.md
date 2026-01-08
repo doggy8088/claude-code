@@ -779,7 +779,7 @@
 
 ## 1.0.69
 
-- Upgraded Opus to version 4.1
+- 將 Opus 升級至 4.1 版
 
 ## 1.0.68
 
