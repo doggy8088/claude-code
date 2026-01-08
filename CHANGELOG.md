@@ -1264,8 +1264,8 @@
 
 ## 0.2.36
 
-- Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`
-- Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`
+- 使用 `claude mcp add-from-claude-desktop` 從 Claude Desktop 匯入 MCP 伺服器
+- 使用 `claude mcp add-json <n> <json>` 以 JSON 字串新增 MCP 伺服器
 
 ## 0.2.34
 
