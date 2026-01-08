@@ -949,7 +949,7 @@
 
 ## 1.0.37
 
-- Remove ability to set `Proxy-Authorization` header via ANTHROPIC_AUTH_TOKEN or apiKeyHelper
+- 移除透過 ANTHROPIC_AUTH_TOKEN 或 apiKeyHelper 設定 `Proxy-Authorization` 標頭的能力
 
 ## 1.0.36
 
