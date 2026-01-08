@@ -977,7 +977,7 @@
 
 ## 1.0.31
 
-- Fixed a bug where ~/.claude.json would get reset when file contained invalid JSON
+- 修正 ~/.claude.json 內容包含無效 JSON 時檔案會被重設的錯誤
 
 ## 1.0.30
 
