@@ -649,8 +649,8 @@
 
 ## 1.0.113
 
-- Deprecated piped input in interactive mode
-- Move Ctrl+R keybinding for toggling transcript to Ctrl+O
+- 將互動模式的管線輸入（piped input）標記為已棄用
+- 將切換 transcript 的快捷鍵由 Ctrl+R 改為 Ctrl+O
 
 ## 1.0.112
 
