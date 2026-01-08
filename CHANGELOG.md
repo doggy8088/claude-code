@@ -1131,8 +1131,8 @@
 
 ## 0.2.106
 
-- MCP SSE server configs can now specify custom headers
-- Fixed a bug where MCP permission prompt didn't always show correctly
+- MCP SSE 伺服器設定現在可指定自訂標頭
+- 修正 MCP 權限提示不一定會正確顯示的錯誤
 
 ## 0.2.105
 
