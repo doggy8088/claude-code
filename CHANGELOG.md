@@ -1060,8 +1060,8 @@
 
 ## 1.0.10
 
-- Added markdown table support
-- Improved streaming performance
+- 新增 Markdown 表格支援
+- 改善串流效能
 
 ## 1.0.8
 
