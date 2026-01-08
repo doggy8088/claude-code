@@ -499,12 +499,12 @@
 
 ## 2.0.17
 
-- Added Haiku 4.5 to model selector!
-- Haiku 4.5 automatically uses Sonnet in plan mode, and Haiku for execution (i.e. SonnetPlan by default)
-- 3P (Bedrock and Vertex) are not automatically upgraded yet. Manual upgrading can be done through setting `ANTHROPIC_DEFAULT_HAIKU_MODEL`
-- Introducing the Explore subagent. Powered by Haiku it'll search through your codebase efficiently to save context!
-- OTEL: support HTTP_PROXY and HTTPS_PROXY
-- `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` now disables release notes fetching
+- 在模型選擇器新增 Haiku 4.5！
+- Haiku 4.5 在計畫模式會自動使用 Sonnet、執行時使用 Haiku（也就是預設為 SonnetPlan）
+- 第三方供應商（Bedrock 與 Vertex）尚未自動升級；可透過設定 `ANTHROPIC_DEFAULT_HAIKU_MODEL` 手動升級
+- 推出 Explore 子代理：由 Haiku 驅動，可高效率搜尋你的程式碼庫以節省上下文！
+- OTEL：支援 HTTP_PROXY 與 HTTPS_PROXY
+- `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` 現在會停用發行說明抓取
 
 ## 2.0.15
 
