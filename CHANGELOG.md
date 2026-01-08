@@ -929,11 +929,11 @@
 
 ## 1.0.41
 
-- Hooks: Split Stop hook triggering into Stop and SubagentStop
-- Hooks: Enabled optional timeout configuration for each command
-- Hooks: Added "hook_event_name" to hook input
-- Fixed a bug where MCP tools would display twice in tool list
-- New tool parameters JSON for Bash tool in `tool_decision` event
+- Hooks：將 Stop hook 的觸發拆分為 Stop 與 SubagentStop
+- Hooks：支援為每個指令選用逾時設定
+- Hooks：在 hook 輸入中新增 "hook_event_name"
+- 修正 MCP 工具在工具清單中重複顯示兩次的錯誤
+- 在 `tool_decision` 事件中新增 Bash 工具的工具參數 JSON
 
 ## 1.0.40
 
