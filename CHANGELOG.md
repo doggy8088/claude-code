@@ -1204,8 +1204,8 @@
 
 ## 0.2.66
 
-- Print mode (-p) now supports streaming output via --output-format=stream-json
-- Fixed issue where pasting could trigger memory or bash mode unexpectedly
+- 列印模式（-p）現在支援透過 --output-format=stream-json 串流輸出
+- 修正貼上內容時可能意外觸發記憶或 bash 模式的問題
 
 ## 0.2.63
 
