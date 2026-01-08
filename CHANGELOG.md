@@ -1259,8 +1259,8 @@
 
 ## 0.2.37
 
-- New /release-notes command lets you view release notes at any time
-- `claude config add/remove` commands now accept multiple values separated by commas or spaces
+- 新增 /release-notes 指令，讓你隨時查看發行說明
+- `claude config add/remove` 指令現在可接受以逗號或空白分隔的多個值
 
 ## 0.2.36
 
