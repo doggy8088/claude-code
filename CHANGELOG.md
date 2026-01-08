@@ -768,8 +768,8 @@
 
 ## 1.0.71
 
-- Background commands: (Ctrl-b) to run any Bash command in the background so Claude can keep working (great for dev servers, tailing logs, etc.)
-- Customizable status line: add your terminal prompt to Claude Code with /statusline
+- 背景指令：（Ctrl-b）可將任何 Bash 指令放到背景執行，讓 Claude 能繼續工作（很適合跑開發伺服器、tail log 等）
+- 可自訂狀態列：使用 /statusline 將你的終端機提示符（prompt）加入 Claude Code
 
 ## 1.0.70
 
