@@ -1254,8 +1254,8 @@
 
 ## 0.2.41
 
-- MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable
-- MCP server startup no longer blocks the app from starting up
+- MCP 伺服器啟動逾時時間現在可透過 MCP_TIMEOUT 環境變數設定
+- MCP 伺服器啟動不再阻塞應用程式啟動
 
 ## 0.2.37
 
