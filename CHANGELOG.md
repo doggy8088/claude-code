@@ -1283,9 +1283,9 @@
 
 ## 0.2.30
 
-- Added ANSI color theme for better terminal compatibility
-- Fixed issue where slash command arguments weren't being sent properly
-- (Mac-only) API keys are now stored in macOS Keychain
+- 新增 ANSI 色彩主題，以提升終端機相容性
+- 修正斜線指令參數未正確送出的問題
+- （僅限 Mac）API 金鑰現在會儲存在 macOS 鑰匙圈
 
 ## 0.2.26
 
