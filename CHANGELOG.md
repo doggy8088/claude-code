@@ -1143,9 +1143,9 @@
 
 ## 0.2.102
 
-- Improved thinking triggering reliability
-- Improved @mention reliability for images and folders
-- You can now paste multiple large chunks into one prompt
+- 改善思考模式觸發的可靠性
+- 改善圖片與資料夾的 @ 提及可靠性
+- 現在可在單一提示詞中貼上多個大型片段
 
 ## 0.2.100
 
