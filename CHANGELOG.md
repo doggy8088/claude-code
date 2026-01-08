@@ -150,16 +150,16 @@
 
 ## 2.0.72
 
-- Added Claude in Chrome (Beta) feature that works with the Chrome extension (https://claude.ai/chrome) to let you control your browser directly from Claude Code
-- Reduced terminal flickering
-- Added scannable QR code to mobile app tip for quick app downloads
-- Added loading indicator when resuming conversations for better feedback
-- Fixed `/context` command not respecting custom system prompts in non-interactive mode
-- Fixed order of consecutive Ctrl+K lines when pasting with Ctrl+Y
-- Improved @ mention file suggestion speed (~3x faster in git repositories)
-- Improved file suggestion performance in repos with `.ignore` or `.rgignore` files
-- Improved settings validation errors to be more prominent
-- Changed thinking toggle from Tab to Alt+T to avoid accidental triggers
+- 新增 Claude in Chrome（Beta）功能：搭配 Chrome 擴充套件（https://claude.ai/chrome），可讓你直接從 Claude Code 控制瀏覽器
+- 減少終端機閃爍
+- 行動 App 提示新增可掃描 QR code，方便快速下載
+- 續接對話時新增載入指示器，提供更佳回饋
+- 修正非互動模式下 `/context` 指令未遵循自訂系統提示詞的問題
+- 修正使用 Ctrl+Y 貼上時，連續 Ctrl+K 行的順序問題
+- 改善 @ 提及檔案建議速度（在 git 儲存庫中約快 3 倍）
+- 改善含 `.ignore` 或 `.rgignore` 的儲存庫之檔案建議效能
+- 讓 settings 驗證錯誤更醒目
+- 將思考模式切換由 Tab 改為 Alt+T，避免誤觸
 
 ## 2.0.71
 
