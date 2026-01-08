@@ -1045,10 +1045,10 @@
 
 ## 1.0.17
 
-- We now emit messages from sub-tasks in -p mode (look for the parent_tool_use_id property)
-- Fixed crashes when the VS Code diff tool is invoked multiple times quickly
-- MCP server list UI improvements
-- Update Claude Code process title to display "claude" instead of "node"
+- 在 -p 模式下，我們現在會輸出子任務的訊息（請查看 parent_tool_use_id 屬性）
+- 修正在短時間內多次呼叫 VS Code diff 工具時可能當機的問題
+- 改善 MCP 伺服器清單 UI
+- 更新 Claude Code 的行程標題，顯示為 "claude" 而非 "node"
 
 ## 1.0.11
 
