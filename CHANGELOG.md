@@ -1180,8 +1180,8 @@
 
 ## 0.2.74
 
-- Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL
-- Task tool can now perform writes and run bash commands
+- 新增支援重新整理動態產生的 API 金鑰（透過 apiKeyHelper），存活時間（TTL）為 5 分鐘
+- Task 工具現在可進行寫入並執行 bash 指令
 
 ## 0.2.72
 
