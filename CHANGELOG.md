@@ -966,9 +966,9 @@
 
 ## 1.0.33
 
-- Improved logging functionality with session ID support
-- Added prompt input undo functionality (Ctrl+Z and vim 'u' command)
-- Improvements to plan mode
+- 改善記錄功能，新增工作階段 ID 支援
+- 提示詞輸入新增復原功能（Ctrl+Z 與 Vim 的 'u' 指令）
+- 改善計畫模式（plan mode）
 
 ## 1.0.32
 
