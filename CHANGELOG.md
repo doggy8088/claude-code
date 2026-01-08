@@ -937,7 +937,7 @@
 
 ## 1.0.40
 
-- Fixed a bug causing API connection errors with UNABLE_TO_GET_ISSUER_CERT_LOCALLY if `NODE_EXTRA_CA_CERTS` was set
+- 修正當設定 `NODE_EXTRA_CA_CERTS` 時，可能導致出現 UNABLE_TO_GET_ISSUER_CERT_LOCALLY 的 API 連線錯誤
 
 ## 1.0.39
 
