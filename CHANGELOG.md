@@ -569,10 +569,10 @@
 
 ## 2.0.5
 
-- IDE: Fix IME unintended message submission with Enter and Tab
-- IDE: Add "Open in Terminal" link in login screen
-- Fix unhandled OAuth expiration 401 API errors
-- SDK: Added SDKUserMessageReplay.isReplay to prevent duplicate messages
+- IDE：修正使用 Enter 與 Tab 時，IME（輸入法）導致非預期提交訊息的問題
+- IDE：在登入畫面新增 "Open in Terminal" 連結
+- 修正未處理 OAuth 過期導致的 401 API 錯誤
+- SDK：新增 SDKUserMessageReplay.isReplay，避免重複訊息
 
 ## 2.0.1
 
