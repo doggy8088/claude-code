@@ -1074,12 +1074,12 @@
 
 ## 1.0.7
 
-- Renamed /allowed-tools -> /permissions
-- Migrated allowedTools and ignorePatterns from .claude.json -> settings.json
-- Deprecated claude config commands in favor of editing settings.json
-- Fixed a bug where --dangerously-skip-permissions sometimes didn't work in --print mode
-- Improved error handling for /install-github-app
-- Bugfixes, UI polish, and tool reliability improvements
+- 將 /allowed-tools 重新命名為 /permissions
+- 將 .claude.json 的 allowedTools 與 ignorePatterns 遷移至 settings.json
+- 將 claude config 指令標記為已棄用，改為直接編輯 settings.json
+- 修正在 --print 模式下 --dangerously-skip-permissions 偶爾無法運作的錯誤
+- 改善 /install-github-app 的錯誤處理
+- 另包含錯誤修正、UI 微調與工具可靠性改進
 
 ## 1.0.6
 
