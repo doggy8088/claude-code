@@ -1154,7 +1154,7 @@
 
 ## 0.2.98
 
-- Fixed an issue where auto-compact was running twice
+- 修正自動壓縮（auto-compact）執行兩次的問題
 
 ## 0.2.96
 
