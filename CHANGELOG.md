@@ -1034,14 +1034,14 @@
 
 ## 1.0.18
 
-- Added --add-dir CLI argument for specifying additional working directories
-- Added streaming input support without require -p flag
-- Improved startup performance and session storage performance
-- Added CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR environment variable to freeze working directory for bash commands
-- Added detailed MCP server tools display (/mcp)
-- MCP authentication and permission improvements
-- Added auto-reconnection for MCP SSE connections on disconnect
-- Fixed issue where pasted content was lost when dialogs appeared
+- 新增 --add-dir CLI 參數，用於指定額外的工作目錄
+- 新增串流輸入支援，不需 -p 旗標
+- 改善啟動效能與工作階段儲存效能
+- 新增 CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR 環境變數，用於固定 bash 指令的工作目錄
+- 新增更詳細的 MCP 伺服器工具顯示（/mcp）
+- 改善 MCP 驗證與權限機制
+- 新增 MCP SSE 連線中斷後的自動重新連線
+- 修正在出現對話框時貼上內容遺失的問題
 
 ## 1.0.17
 
