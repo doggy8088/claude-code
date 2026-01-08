@@ -464,7 +464,7 @@
 
 ## 2.0.25
 
-- Removed legacy SDK entrypoint. Please migrate to @anthropic-ai/claude-agent-sdk for future SDK updates: https://platform.claude.com/docs/en/agent-sdk/migration-guide
+- 移除舊版 SDK 入口點。請遷移至 @anthropic-ai/claude-agent-sdk 以取得後續 SDK 更新：https://platform.claude.com/docs/en/agent-sdk/migration-guide
 
 ## 2.0.24
 
