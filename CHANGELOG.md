@@ -286,10 +286,10 @@
 
 ## 2.0.55
 
-- Fixed proxy DNS resolution being forced on by default. Now opt-in via `CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true` environment variable
-- Fixed keyboard navigation becoming unresponsive when holding down arrow keys in memory location selector
-- Improved AskUserQuestion tool to auto-submit single-select questions on the last question, eliminating the extra review screen for simple question flows
-- Improved fuzzy matching for `@` file suggestions with faster, more accurate results
+- 修正 proxy DNS 解析預設被強制啟用的問題。現在改為選用，可透過 `CLAUDE_CODE_PROXY_RESOLVES_HOSTS=true` 環境變數啟用
+- 修正在記憶位置選擇器中按住方向鍵時鍵盤導覽無回應的問題
+- 改善 AskUserQuestion 工具：在最後一題若為單選，會自動提交，讓簡單流程不再需要額外的檢視畫面
+- 改善 `@` 檔案建議的模糊比對，結果更快更準確
 
 ## 2.0.54
 
