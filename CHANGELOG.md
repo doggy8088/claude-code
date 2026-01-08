@@ -425,22 +425,22 @@
 
 ## 2.0.30
 
-- Added helpful hint to run `security unlock-keychain` when encountering API key errors on macOS with locked keychain
-- Added `allowUnsandboxedCommands` sandbox setting to disable the dangerouslyDisableSandbox escape hatch at policy level
-- Added `disallowedTools` field to custom agent definitions for explicit tool blocking
-- Added prompt-based stop hooks
-- VSCode: Added respectGitIgnore configuration to include .gitignored files in file searches (defaults to true)
-- Enabled SSE MCP servers on native build
-- Deprecated output styles. Review options in `/output-style` and use --system-prompt-file, --system-prompt, --append-system-prompt, CLAUDE.md, or plugins instead
-- Removed support for custom ripgrep configuration, resolving an issue where Search returns no results and config discovery fails
-- Fixed Explore agent creating unwanted .md investigation files during codebase exploration
-- Fixed a bug where `/context` would sometimes fail with "max_tokens must be greater than thinking.budget_tokens" error message
-- Fixed `--mcp-config` flag to correctly override file-based MCP configurations
-- Fixed bug that saved session permissions to local settings
-- Fixed MCP tools not being available to sub-agents
-- Fixed hooks and plugins not executing when using --dangerously-skip-permissions flag
-- Fixed delay when navigating through typeahead suggestions with arrow keys
-- VSCode: Restored selection indicator in input footer showing current file or code selection status
+- 當 macOS 鑰匙圈被鎖定而遇到 API 金鑰錯誤時，新增提示可執行 `security unlock-keychain`
+- 新增 sandbox 設定 `allowUnsandboxedCommands`，可在政策層級停用 dangerouslyDisableSandbox 的逃生門
+- 在自訂 agent 定義中新增 `disallowedTools` 欄位，用於明確封鎖工具
+- 新增基於提示詞（prompt-based）的 stop hooks
+- VSCode：新增 respectGitIgnore 設定，可在檔案搜尋中包含被 .gitignore 忽略的檔案（預設為 true）
+- 在原生版本啟用 SSE MCP 伺服器
+- 將輸出風格標記為已棄用。請查看 `/output-style` 的選項，並改用 --system-prompt-file、--system-prompt、--append-system-prompt、CLAUDE.md 或外掛
+- 移除自訂 ripgrep 設定支援，解決 Search 無結果與設定探索失敗的問題
+- 修正 Explore agent 在探索程式碼庫時會產生不必要的 .md 調查檔案
+- 修正 `/context` 有時會失敗並顯示 "max_tokens must be greater than thinking.budget_tokens" 的錯誤
+- 修正 `--mcp-config` 旗標可正確覆寫檔案型 MCP 設定
+- 修正工作階段權限被儲存到本機設定的錯誤
+- 修正子代理無法使用 MCP 工具的問題
+- 修正使用 --dangerously-skip-permissions 時 hooks 與外掛不會執行的問題
+- 修正使用方向鍵瀏覽 typeahead 建議時的延遲
+- VSCode：恢復輸入區底部的選取指示器，顯示目前檔案或程式碼選取狀態
 
 ## 2.0.28
 
