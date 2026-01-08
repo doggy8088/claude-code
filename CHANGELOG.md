@@ -1225,9 +1225,9 @@
 
 ## 0.2.54
 
-- Quickly add to Memory by starting your message with '#'
-- Press ctrl+r to see full output for long tool results
-- Added support for MCP SSE transport
+- 以 '#' 開頭即可快速新增至記憶（Memory）
+- 按 ctrl+r 查看較長工具結果的完整輸出
+- 新增 MCP SSE 傳輸支援
 
 ## 0.2.53
 
