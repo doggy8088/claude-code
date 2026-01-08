@@ -1231,8 +1231,8 @@
 
 ## 0.2.53
 
-- New web fetch tool lets Claude view URLs that you paste in
-- Fixed a bug with JPEG detection
+- 新增網頁抓取工具，讓 Claude 能查看你貼上的 URL
+- 修正 JPEG 偵測的錯誤
 
 ## 0.2.50
 
