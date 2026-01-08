@@ -1091,7 +1091,7 @@
 
 ## 1.0.4
 
-- Fixed a bug where MCP tool errors weren't being parsed correctly
+- 修正 MCP 工具錯誤未被正確解析的問題
 
 ## 1.0.1
 
