@@ -1236,7 +1236,7 @@
 
 ## 0.2.50
 
-- New MCP "project" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository
+- 新增 MCP "project" 範圍：現在可將 MCP 伺服器加入 .mcp.json 檔案並提交到你的儲存庫
 
 ## 0.2.49
 
