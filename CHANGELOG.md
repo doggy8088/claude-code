@@ -852,9 +852,9 @@
 
 ## 1.0.56
 
-- Windows: Enabled shift+tab for mode switching on versions of Node.js that support terminal VT mode
-- Fixes for WSL IDE detection
-- Fix an issue causing awsRefreshHelper changes to .aws directory not to be picked up
+- Windows：在支援終端機 VT 模式的 Node.js 版本上，啟用 shift+tab 用於模式切換
+- 修正 WSL 的 IDE 偵測問題
+- 修正 awsRefreshHelper 對 .aws 目錄的變更未被偵測到的問題
 
 ## 1.0.55
 
