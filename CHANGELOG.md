@@ -1028,9 +1028,9 @@
 
 ## 1.0.21
 
-- Improved editing of files with tab-based indentation
-- Fix for tool_use without matching tool_result errors
-- Fixed a bug where stdio MCP server processes would linger after quitting Claude Code
+- 改善以 Tab 縮排檔案的編輯體驗
+- 修正 tool_use 沒有對應 tool_result 時的錯誤
+- 修正在退出 Claude Code 後 stdio MCP 伺服器行程仍會殘留的錯誤
 
 ## 1.0.18
 
