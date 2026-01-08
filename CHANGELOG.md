@@ -972,8 +972,8 @@
 
 ## 1.0.32
 
-- Updated loopback config for litellm
-- Added forceLoginMethod setting to bypass login selection screen
+- 更新 litellm 的 loopback 設定
+- 新增 forceLoginMethod 設定，可略過登入方式選擇畫面
 
 ## 1.0.31
 
