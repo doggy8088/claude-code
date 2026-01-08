@@ -941,7 +941,7 @@
 
 ## 1.0.39
 
-- New Active Time metric in OpenTelemetry logging
+- OpenTelemetry 記錄新增 Active Time 指標
 
 ## 1.0.38
 
