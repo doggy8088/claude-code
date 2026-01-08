@@ -681,7 +681,7 @@
 
 ## 1.0.97
 
-- Settings: /doctor now validates permission rule syntax and suggests corrections
+- Settings：/doctor 現在會驗證權限規則語法並提供修正建議
 
 ## 1.0.94
 
