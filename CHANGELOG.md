@@ -625,10 +625,10 @@
 
 ## 1.0.119
 
-- Fix Windows issue where process visually freezes on entering interactive mode
-- Support dynamic headers for MCP servers via headersHelper configuration
-- Fix thinking mode not working in headless sessions
-- Fix slash commands now properly update allowed tools instead of replacing them
+- 修正 Windows 問題：進入互動模式時行程畫面看起來會卡住
+- 透過 headersHelper 設定新增支援 MCP 伺服器動態標頭
+- 修正在無頭（headless）工作階段中思考模式無法運作的問題
+- 修正斜線指令：現在會正確更新允許工具清單，而不是直接取代
 
 ## 1.0.117
 
