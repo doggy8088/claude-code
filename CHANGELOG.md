@@ -832,11 +832,11 @@
 
 ## 1.0.59
 
-- SDK: Added tool confirmation support with canUseTool callback
-- SDK: Allow specifying env for spawned process
-- Hooks: Exposed PermissionDecision to hooks (including "ask")
-- Hooks: UserPromptSubmit now supports additionalContext in advanced JSON output
-- Fixed issue where some Max users that specified Opus would still see fallback to Sonnet
+- SDK：新增工具確認支援，可透過 canUseTool callback
+- SDK：允許為衍生（spawned）行程指定 env
+- Hooks：將 PermissionDecision（包含 "ask"）暴露給 hooks
+- Hooks：UserPromptSubmit 現在在進階 JSON 輸出中支援 additionalContext
+- 修正部分 Max 使用者指定 Opus 時仍會回退（fallback）到 Sonnet 的問題
 
 ## 1.0.58
 
