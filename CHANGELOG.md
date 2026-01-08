@@ -1136,10 +1136,10 @@
 
 ## 0.2.105
 
-- Claude can now search the web
-- Moved system & account status to /status
-- Added word movement keybindings for Vim
-- Improved latency for startup, todo tool, and file edits
+- Claude 現在可以搜尋網路
+- 將系統與帳戶狀態移至 /status
+- 新增 Vim 的單字移動快捷鍵
+- 改善啟動、Todo 工具與檔案編輯的延遲表現
 
 ## 0.2.102
 
