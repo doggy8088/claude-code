@@ -358,7 +358,7 @@
 
 ## 2.0.42
 
-- Added `agent_id` and `agent_transcript_path` fields to `SubagentStop` hooks.
+- 在 `SubagentStop` hooks 中新增 `agent_id` 與 `agent_transcript_path` 欄位。
 
 ## 2.0.41
 
