@@ -894,13 +894,13 @@
 
 ## 1.0.48
 
-- Fixed a bug in v1.0.45 where the app would sometimes freeze on launch
-- Added progress messages to Bash tool based on the last 5 lines of command output
-- Added expanding variables support for MCP server configuration
-- Moved shell snapshots from /tmp to ~/.claude for more reliable Bash tool calls
-- Improved IDE extension path handling when Claude Code runs in WSL
-- Hooks: Added a PreCompact hook
-- Vim mode: Added c, f/F, t/T
+- 修正 v1.0.45 的錯誤：應用程式有時會在啟動時卡住
+- Bash 工具新增進度訊息，依據指令輸出的最後 5 行顯示
+- MCP 伺服器設定新增支援變數展開（variable expansion）
+- 將 shell 快照由 /tmp 移至 ~/.claude，提升 Bash 工具呼叫的可靠性
+- 改善 Claude Code 在 WSL 執行時的 IDE 擴充套件路徑處理
+- Hooks：新增 PreCompact hook
+- Vim 模式：新增 c、f/F、t/T
 
 ## 1.0.45
 
