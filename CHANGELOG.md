@@ -662,8 +662,8 @@
 
 ## 1.0.111
 
-- /model now validates provided model names
-- Fixed Bash tool crashes caused by malformed shell syntax parsing
+- /model 現在會驗證提供的模型名稱
+- 修正因 shell 語法解析不正確而導致 Bash 工具當機的問題
 
 ## 1.0.110
 
