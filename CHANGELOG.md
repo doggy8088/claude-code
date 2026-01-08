@@ -962,7 +962,7 @@
 
 ## 1.0.34
 
-- Fixed a memory leak causing a MaxListenersExceededWarning message to appear
+- 修正記憶體洩漏，避免出現 MaxListenersExceededWarning 訊息
 
 ## 1.0.33
 
