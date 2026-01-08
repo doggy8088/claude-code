@@ -673,7 +673,7 @@
 
 ## 1.0.109
 
-- SDK: Added partial message streaming support via `--include-partial-messages` CLI flag
+- SDK：透過 `--include-partial-messages` CLI 旗標新增支援部分訊息（partial message）串流
 
 ## 1.0.106
 
