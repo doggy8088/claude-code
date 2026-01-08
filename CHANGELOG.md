@@ -192,12 +192,12 @@
 
 ## 2.0.68
 
-- Fixed IME (Input Method Editor) support for languages like Chinese, Japanese, and Korean by correctly positioning the composition window at the cursor
-- Fixed a bug where disallowed MCP tools were visible to the model
-- Fixed an issue where steering messages could be lost while a subagent is working
-- Fixed Option+Arrow word navigation treating entire CJK (Chinese, Japanese, Korean) text sequences as a single word instead of navigating by word boundaries
-- Improved plan mode exit UX: show simplified yes/no dialog when exiting with empty or missing plan instead of throwing an error
-- Add support for enterprise managed settings. Contact your Anthropic account team to enable this feature.
+- 修正 IME（輸入法）支援：針對中文、日文、韓文等語言，將組字視窗正確定位在游標處
+- 修正被禁止的 MCP 工具仍對模型可見的錯誤
+- 修正子代理工作期間，引導訊息（steering messages）可能遺失的問題
+- 修正 Option+Arrow 單字導覽：不再把整段 CJK（中文、日文、韓文）文字視為單一單字，而是依單字邊界導覽
+- 改善退出計畫模式的 UX：當計畫為空或缺失時，改顯示簡化的 yes/no 對話框，而非拋出錯誤
+- 新增支援企業受管理設定。請聯絡你的 Anthropic 客戶團隊以啟用此功能。
 
 ## 2.0.67
 
