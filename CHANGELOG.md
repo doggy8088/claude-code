@@ -1101,8 +1101,8 @@
 
 ## 1.0.0
 
-- Claude Code is now generally available
-- Introducing Sonnet 4 and Opus 4 models
+- Claude Code 現已正式推出（GA）
+- 推出 Sonnet 4 與 Opus 4 模型
 
 ## 0.2.125
 
