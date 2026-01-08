@@ -1195,8 +1195,8 @@
 
 ## 0.2.69
 
-- Fixed UI glitches with improved Select component behavior
-- Enhanced terminal output display with better text truncation logic
+- 改善 Select 元件行為，修正 UI 小瑕疵
+- 改善文字截斷邏輯，強化終端機輸出顯示
 
 ## 0.2.67
 
