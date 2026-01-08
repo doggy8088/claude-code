@@ -317,10 +317,10 @@
 
 ## 2.0.50
 
-- Fixed bug preventing calling MCP tools that have nested references in their input schemas
-- Silenced a noisy but harmless error during upgrades
-- Improved ultrathink text display
-- Improved clarity of 5-hour session limit warning message
+- 修正：輸入 schema 含巢狀 reference 的 MCP 工具無法呼叫的錯誤
+- 升級期間抑制一個吵雜但無害的錯誤訊息
+- 改善 ultrathink 文字顯示
+- 提升 5 小時工作階段限制警告訊息的清晰度
 
 ## 2.0.49
 
