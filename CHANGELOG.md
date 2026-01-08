@@ -341,9 +341,9 @@
 
 ## 2.0.45
 
-- Added support for Microsoft Foundry! See https://code.claude.com/docs/en/azure-ai-foundry
-- Added `PermissionRequest` hook to automatically approve or deny tool permission requests with custom logic
-- Send background tasks to Claude Code on the web by starting a message with `&`
+- 新增支援 Microsoft Foundry！請見 https://code.claude.com/docs/en/azure-ai-foundry
+- 新增 `PermissionRequest` hook，可用自訂邏輯自動核准或拒絕工具權限請求
+- 在 Web 版 Claude Code：以 `&` 開頭訊息即可將背景任務送出
 
 ## 2.0.43
 
