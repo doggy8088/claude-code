@@ -576,8 +576,8 @@
 
 ## 2.0.1
 
-- Skip Sonnet 4.5 default model setting change for Bedrock and Vertex
-- Various bug fixes and presentation improvements
+- 略過 Bedrock 與 Vertex 的 Sonnet 4.5 預設模型設定變更
+- 多項錯誤修正與呈現改善
 
 ## 2.0.0
 
