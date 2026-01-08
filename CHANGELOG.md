@@ -925,7 +925,7 @@
 
 ## 1.0.42
 
-- Added tilde (`~`) expansion support to `/add-dir` command
+- `/add-dir` 指令新增支援波浪符（`~`）展開
 
 ## 1.0.41
 
