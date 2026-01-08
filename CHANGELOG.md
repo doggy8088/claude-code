@@ -654,11 +654,11 @@
 
 ## 1.0.112
 
-- Transcript mode (Ctrl+R): Added the model used to generate each assistant message
-- Addressed issue where some Claude Max users were incorrectly recognized as Claude Pro users
-- Hooks: Added systemMessage support for SessionEnd hooks
-- Added `spinnerTipsEnabled` setting to disable spinner tips
-- IDE: Various improvements and bug fixes
+- Transcript 模式（Ctrl+R）：新增顯示產生每則助理訊息所使用的模型
+- 修正部分 Claude Max 使用者被錯誤辨識為 Claude Pro 使用者的問題
+- Hooks：SessionEnd hooks 新增 systemMessage 支援
+- 新增 `spinnerTipsEnabled` 設定，可停用 spinner 提示
+- IDE：多項改進與錯誤修正
 
 ## 1.0.111
 
