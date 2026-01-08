@@ -1289,9 +1289,9 @@
 
 ## 0.2.26
 
-- New /approved-tools command for managing tool permissions
-- Word-level diff display for improved code readability
-- Fuzzy matching for slash commands
+- 新增 /approved-tools 指令，用於管理工具權限
+- 提供字詞層級的差異（diff）顯示，提升程式碼可讀性
+- 支援斜線指令的模糊比對
 
 ## 0.2.21
 
