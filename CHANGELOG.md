@@ -264,9 +264,9 @@
 
 ## 2.0.59
 
-- Added --agent CLI flag to override the agent setting for the current session
-- Added `agent` setting to configure main thread with a specific agent's system prompt, tool restrictions, and model
-- VS Code: Fixed .claude.json config file being read from incorrect location
+- 新增 --agent CLI 旗標，可覆寫目前工作階段的 agent 設定
+- 新增 `agent` 設定，可用特定 agent 的系統提示詞、工具限制與模型來設定主執行緒
+- VS Code：修正 .claude.json 設定檔從錯誤位置讀取的問題
 
 ## 2.0.58
 
