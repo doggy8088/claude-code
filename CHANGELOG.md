@@ -1295,4 +1295,4 @@
 
 ## 0.2.21
 
-- Fuzzy matching for /commands
+- 支援 /commands 的模糊比對
