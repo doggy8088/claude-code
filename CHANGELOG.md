@@ -241,13 +241,13 @@
 
 ## 2.0.62
 
-- Added "(Recommended)" indicator for multiple-choice questions, with the recommended option moved to the top of the list
-- Added `attribution` setting to customize commit and PR bylines (deprecates `includeCoAuthoredBy`)
-- Fixed duplicate slash commands appearing when ~/.claude is symlinked to a project directory
-- Fixed slash command selection not working when multiple commands share the same name
-- Fixed an issue where skill files inside symlinked skill directories could become circular symlinks
-- Fixed running versions getting removed because lock file incorrectly going stale
-- Fixed IDE diff tab not closing when rejecting file changes
+- 為選擇題新增「(Recommended)」標記，並將建議選項移到清單頂端
+- 新增 `attribution` 設定，可自訂 commit 與 PR 的署名（將 `includeCoAuthoredBy` 標記為已棄用）
+- 修正當 ~/.claude symlink 到專案目錄時，會出現重複斜線指令的問題
+- 修正多個指令同名時，斜線指令選擇無法運作的問題
+- 修正 symlink 的 skill 目錄內的 skill 檔案可能變成循環 symlink 的問題
+- 修正 lock 檔錯誤地判定為過期，導致執行中版本被移除的問題
+- 修正拒絕檔案變更時 IDE diff 分頁未關閉的問題
 
 ## 2.0.61
 
