@@ -527,17 +527,17 @@
 
 ## 2.0.12
 
-- **Plugin System Released**: Extend Claude Code with custom commands, agents, hooks, and MCP servers from marketplaces
-- `/plugin install`, `/plugin enable/disable`, `/plugin marketplace` commands for plugin management
-- Repository-level plugin configuration via `extraKnownMarketplaces` for team collaboration
-- `/plugin validate` command for validating plugin structure and configuration
-- Plugin announcement blog post at https://www.anthropic.com/news/claude-code-plugins
-- Plugin documentation available at https://code.claude.com/docs/en/plugins
-- Comprehensive error messages and diagnostics via `/doctor` command
-- Avoid flickering in `/model` selector
-- Improvements to `/help`
-- Avoid mentioning hooks in `/resume` summaries
-- Changes to the "verbose" setting in `/config` now persist across sessions
+- **外掛系統正式推出**：可從市集以自訂指令、代理、hooks 與 MCP 伺服器擴充 Claude Code
+- 以 `/plugin install`、`/plugin enable/disable`、`/plugin marketplace` 管理外掛
+- 透過 `extraKnownMarketplaces` 支援儲存庫層級的外掛設定，方便團隊協作
+- 使用 `/plugin validate` 驗證外掛結構與設定
+- 外掛公告文章：https://www.anthropic.com/news/claude-code-plugins
+- 外掛文件：https://code.claude.com/docs/en/plugins
+- 透過 `/doctor` 提供完整的錯誤訊息與診斷
+- 避免 `/model` 選擇器閃爍
+- 改善 `/help`
+- 在 `/resume` 摘要中避免提及 hooks
+- `/config` 的 "verbose" 設定變更現在可跨工作階段保留
 
 ## 2.0.11
 
