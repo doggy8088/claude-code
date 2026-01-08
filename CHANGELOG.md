@@ -1158,7 +1158,7 @@
 
 ## 0.2.96
 
-- Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)
+- Claude Code 現在也可搭配 Claude Max 訂閱使用（https://claude.ai/upgrade）
 
 ## 0.2.93
 
