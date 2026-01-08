@@ -764,7 +764,7 @@
 
 ## 1.0.72
 
-- Ask permissions: have Claude Code always ask for confirmation to use specific tools with /permissions
+- 詢問權限：使用 /permissions 設定讓 Claude Code 在使用特定工具前一律先詢問確認
 
 ## 1.0.71
 
