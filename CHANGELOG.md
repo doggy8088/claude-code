@@ -1162,8 +1162,8 @@
 
 ## 0.2.93
 
-- Resume conversations from where you left off from with "claude --continue" and "claude --resume"
-- Claude now has access to a Todo list that helps it stay on track and be more organized
+- 使用 "claude --continue" 與 "claude --resume" 可從上次中斷處續接對話
+- Claude 現在可使用待辦清單（Todo list），幫助保持進度並更有條理
 
 ## 0.2.82
 
