@@ -281,8 +281,8 @@
 
 ## 2.0.56
 
-- Added setting to enable/disable terminal progress bar (OSC 9;4)
-- VSCode Extension: Added support for VS Code's secondary sidebar (VS Code 1.97+), allowing Claude Code to be displayed in the right sidebar while keeping the file explorer on the left. Requires setting sidebar as Preferred Location in the config.
+- 新增設定，可啟用／停用終端機進度條（OSC 9;4）
+- VSCode 擴充套件：新增支援 VS Code 的次側邊欄（VS Code 1.97+），可將 Claude Code 顯示在右側邊欄，同時保留檔案總管在左側。需要在設定中將 sidebar 設為 Preferred Location。
 
 ## 2.0.55
 
