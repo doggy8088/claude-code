@@ -1209,7 +1209,7 @@
 
 ## 0.2.63
 
-- Fixed an issue where MCP tools were loaded twice, which caused tool call errors
+- 修正 MCP 工具被載入兩次而導致工具呼叫錯誤的問題
 
 ## 0.2.61
 
