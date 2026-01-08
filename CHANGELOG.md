@@ -953,8 +953,8 @@
 
 ## 1.0.36
 
-- Web search now takes today's date into context
-- Fixed a bug where stdio MCP servers were not terminating properly on exit
+- 網路搜尋現在會將今日日期納入上下文
+- 修正退出時 stdio MCP 伺服器未正確終止的錯誤
 
 ## 1.0.35
 
