@@ -1273,8 +1273,8 @@
 
 ## 0.2.32
 
-- Interactive MCP setup wizard: Run "claude mcp add" to add MCP servers with a step-by-step interface
-- Fix for some PersistentShell issues
+- 互動式 MCP 設定精靈：執行 "claude mcp add"，以逐步介面新增 MCP 伺服器
+- 修正部分 PersistentShell 問題
 
 ## 0.2.31
 
