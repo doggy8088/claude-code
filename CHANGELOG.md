@@ -114,7 +114,7 @@
 
 ## 2.0.76
 
-- Fixed issue with macOS code-sign warning when using Claude in Chrome integration
+- 修正使用 Claude in Chrome 整合時 macOS 出現 code-sign 警告的問題
 
 ## 2.0.75
 
