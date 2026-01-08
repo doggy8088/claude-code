@@ -482,11 +482,11 @@
 
 ## 2.0.21
 
-- Support MCP `structuredContent` field in tool responses
-- Added an interactive question tool
-- Claude will now ask you questions more often in plan mode
-- Added Haiku 4.5 as a model option for Pro users
-- Fixed an issue where queued commands don't have access to previous messages' output
+- 支援 MCP 工具回應中的 `structuredContent` 欄位
+- 新增互動式提問工具
+- Claude 在計畫模式中現在會更常向你提問
+- 為 Pro 使用者新增 Haiku 4.5 模型選項
+- 修正佇列指令無法存取前一則訊息輸出的問題
 
 ## 2.0.20
 
