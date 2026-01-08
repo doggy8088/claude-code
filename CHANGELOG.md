@@ -293,8 +293,8 @@
 
 ## 2.0.54
 
-- Hooks: Enable PermissionRequest hooks to process 'always allow' suggestions and apply permission updates
-- Fix issue with excessive iTerm notifications
+- Hooks：讓 PermissionRequest hooks 可處理「一律允許」建議，並套用權限更新
+- 修正 iTerm 通知過多的問題
 
 ## 2.0.52
 
