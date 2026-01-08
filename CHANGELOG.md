@@ -410,9 +410,9 @@
 
 ## 2.0.32
 
-- Un-deprecate output styles based on community feedback
-- Added `companyAnnouncements` setting for displaying announcements on startup
-- Fixed hook progress messages not updating correctly during PostToolUse hook execution
+- 根據社群回饋，取消將輸出風格標記為已棄用
+- 新增 `companyAnnouncements` 設定，用於在啟動時顯示公告
+- 修正 PostToolUse hook 執行期間 hook 進度訊息未正確更新的問題
 
 ## 2.0.31
 
