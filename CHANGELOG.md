@@ -163,13 +163,13 @@
 
 ## 2.0.71
 
-- Added /config toggle to enable/disable prompt suggestions
-- Added `/settings` as an alias for the `/config` command
-- Fixed @ file reference suggestions incorrectly triggering when cursor is in the middle of a path
-- Fixed MCP servers from `.mcp.json` not loading when using `--dangerously-skip-permissions`
-- Fixed permission rules incorrectly rejecting valid bash commands containing shell glob patterns (e.g., `ls *.txt`, `for f in *.png`)
-- Bedrock: Environment variable `ANTHROPIC_BEDROCK_BASE_URL` is now respected for token counting and inference profile listing
-- New syntax highlighting engine for native build
+- 新增 /config 開關，可啟用／停用提示詞建議
+- 新增 `/settings` 作為 `/config` 指令別名
+- 修正游標位於路徑中間時，@ 檔案引用建議會被誤觸發的問題
+- 修正使用 `--dangerously-skip-permissions` 時 `.mcp.json` 的 MCP 伺服器不會載入的問題
+- 修正權限規則會誤拒包含 shell glob 模式的合法 bash 指令（例如：`ls *.txt`、`for f in *.png`）
+- Bedrock：token 計數與 inference profile 清單現在會遵循環境變數 `ANTHROPIC_BEDROCK_BASE_URL`
+- 原生版本新增語法醒目提示引擎
 
 ## 2.0.70
 
