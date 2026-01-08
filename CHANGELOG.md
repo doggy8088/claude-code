@@ -632,11 +632,11 @@
 
 ## 1.0.117
 
-- Add Ctrl-R history search to recall previous commands like bash/zsh
-- Fix input lag while typing, especially on Windows
-- Add sed command to auto-allowed commands in acceptEdits mode
-- Fix Windows PATH comparison to be case-insensitive for drive letters
-- Add permissions management hint to /add-dir output
+- 新增 Ctrl-R 歷史搜尋，可像 bash/zsh 一樣回想先前指令
+- 修正打字輸入延遲問題，特別是在 Windows 上
+- 在 acceptEdits 模式中，將 sed 指令加入自動允許清單
+- 修正 Windows PATH 比對：磁碟代號改為不區分大小寫
+- 在 /add-dir 輸出中新增權限管理提示
 
 ## 1.0.115
 
